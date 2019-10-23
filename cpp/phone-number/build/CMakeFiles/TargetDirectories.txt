@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/phone-number/build/CMakeFiles/test_phone-number.dir
+/Users/viraltaco/code/Exercism/cpp/phone-number/build/CMakeFiles/phone-number.dir
+/Users/viraltaco/code/Exercism/cpp/phone-number/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/phone-number/build/CMakeFiles/ZERO_CHECK.dir

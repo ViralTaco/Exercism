@@ -1,0 +1,3 @@
+/Users/viraltaco/code/Exercism/cpp/clock/build/CMakeFiles/clock.dir
+/Users/viraltaco/code/Exercism/cpp/clock/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/clock/build/CMakeFiles/ZERO_CHECK.dir

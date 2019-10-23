@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/isogram/build/CMakeFiles/test_isogram.dir
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/isogram/build/CMakeFiles/isogram.dir
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/isogram/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/isogram/build/CMakeFiles/ZERO_CHECK.dir

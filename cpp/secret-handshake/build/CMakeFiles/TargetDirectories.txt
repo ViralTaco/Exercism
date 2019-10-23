@@ -1,0 +1,4 @@
+/Users/viraltaco/code/code/Exercism/cpp/secret-handshake/build/CMakeFiles/test_secret-handshake.dir
+/Users/viraltaco/code/code/Exercism/cpp/secret-handshake/build/CMakeFiles/secret-handshake.dir
+/Users/viraltaco/code/code/Exercism/cpp/secret-handshake/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/code/Exercism/cpp/secret-handshake/build/CMakeFiles/ZERO_CHECK.dir

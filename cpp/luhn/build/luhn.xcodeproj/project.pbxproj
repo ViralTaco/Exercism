@@ -1,0 +1,873 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1DB9052F7F644EDDB5F83DDB /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C2C82A521524319A7DC67F5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				43DFBD7398BF4EFB83C6F3EC /* CMake Rules */,
+			);
+			dependencies = (
+				10F4F5D5C18041F0ADA6346A /* PBXTargetDependency */,
+				85062EC197F64F4BBA0CCDF1 /* PBXTargetDependency */,
+				2BB8F10FE42948CE8E72170E /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		98C620EFBE30478A8BD57831 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 01C8546E8A314D9AB70A2A8A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A587056E40C746FAB0DD2923 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E78CD525EF0C42CBBC423E60 /* test_luhn */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6081CFAE772446D79BECFB2F /* Build configuration list for PBXAggregateTarget "test_luhn" */;
+			buildPhases = (
+				8E54FBE186EE4AFFB975274D /* CMake Rules */,
+			);
+			dependencies = (
+				7852CA81061B47AB9C71468D /* PBXTargetDependency */,
+				A091828826854896B2670F61 /* PBXTargetDependency */,
+			);
+			name = test_luhn;
+			productName = test_luhn;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3668B62024694B95B093EA7D /* tests-main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DDF9E5FA9DE24AE08B2A1F57 /* tests-main.cpp */; };
+		ADED540728E640EBAAD42F8C /* luhn_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AFAC3D4AD2164366BF5AC0CD /* luhn_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058C63705EF74E82BC9F2D05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFC062DE7574CFBB6EAE3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C620EFBE30478A8BD57831;
+			remoteInfo = ZERO_CHECK;
+		};
+		2F1E486370EF4E8EA25EA802 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFC062DE7574CFBB6EAE3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C620EFBE30478A8BD57831;
+			remoteInfo = ZERO_CHECK;
+		};
+		36FBD0E28DE440F0A8F2A427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFC062DE7574CFBB6EAE3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98C620EFBE30478A8BD57831;
+			remoteInfo = ZERO_CHECK;
+		};
+		4CB2A54CD99C45C48E6DC57A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFC062DE7574CFBB6EAE3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E90222C19D4F1EB51EA8E2;
+			remoteInfo = luhn;
+		};
+		68A68EE1EB414B90953CCAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFC062DE7574CFBB6EAE3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E78CD525EF0C42CBBC423E60;
+			remoteInfo = test_luhn;
+		};
+		AB9E4E974C9744B38D037610 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EFC062DE7574CFBB6EAE3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E90222C19D4F1EB51EA8E2;
+			remoteInfo = luhn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		67BED382C7C34FCA9AE3AA8A /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		73EC4A513B5C463EA339787A /* luhn */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = luhn; sourceTree = BUILT_PRODUCTS_DIR; };
+		79A2AB88DF1840B991239C96 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A19F2A5AABBF44D3B8716C91 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		AFAC3D4AD2164366BF5AC0CD /* luhn_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = luhn_test.cpp; sourceTree = SOURCE_ROOT; };
+		D177EAF7A4CB43B0A36C16F9 /* luhn.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = luhn.h; sourceTree = SOURCE_ROOT; };
+		DDF9E5FA9DE24AE08B2A1F57 /* tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DC464BD0AAA4F389FAF5288 /* luhn */ = {
+			isa = PBXGroup;
+			children = (
+				D01F67B9420542B7BCEE230D /* Source Files */,
+				30360251B31F4B3791C6E26C /* Header Files */,
+				79A2AB88DF1840B991239C96 /* CMakeLists.txt */,
+			);
+			name = luhn;
+			sourceTree = "<group>";
+		};
+		30360251B31F4B3791C6E26C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				D177EAF7A4CB43B0A36C16F9 /* luhn.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		310B9854F1DB48F2B40ABF09 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		63C33FF33F42445DB0906421 /* test_luhn */ = {
+			isa = PBXGroup;
+			children = (
+				310B9854F1DB48F2B40ABF09 /* CMake Rules */,
+				67BED382C7C34FCA9AE3AA8A /* CMakeLists.txt */,
+			);
+			name = test_luhn;
+			sourceTree = "<group>";
+		};
+		A9D81A907CD148BB90CD4FB9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C1953F2A279642909C772708 /* CMake Rules */,
+				A19F2A5AABBF44D3B8716C91 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		ACBEF152F320490AB0AA65D8 = {
+			isa = PBXGroup;
+			children = (
+				63C33FF33F42445DB0906421 /* test_luhn */,
+				0DC464BD0AAA4F389FAF5288 /* luhn */,
+				A9D81A907CD148BB90CD4FB9 /* ALL_BUILD */,
+				B6AFDBA826D04E12AD835B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AFDBA826D04E12AD835B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73EC4A513B5C463EA339787A /* luhn */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1953F2A279642909C772708 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D01F67B9420542B7BCEE230D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFAC3D4AD2164366BF5AC0CD /* luhn_test.cpp */,
+				DDF9E5FA9DE24AE08B2A1F57 /* tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42E90222C19D4F1EB51EA8E2 /* luhn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941C70AA163149F1BDECC8D7 /* Build configuration list for PBXNativeTarget "luhn" */;
+			buildPhases = (
+				2A5862B3C17B4A51BF5184B0 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A95888D03B644317BE41C8C9 /* PBXTargetDependency */,
+			);
+			name = luhn;
+			productName = luhn;
+			productReference = 73EC4A513B5C463EA339787A /* luhn */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EFC062DE7574CFBB6EAE3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = B804A2C35D73436CA072739B /* Build configuration list for PBXProject "luhn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ACBEF152F320490AB0AA65D8;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				1DB9052F7F644EDDB5F83DDB /* ALL_BUILD */,
+				98C620EFBE30478A8BD57831 /* ZERO_CHECK */,
+				42E90222C19D4F1EB51EA8E2 /* luhn */,
+				E78CD525EF0C42CBBC423E60 /* test_luhn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43DFBD7398BF4EFB83C6F3EC /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/luhn/build -f /Users/viraltaco/code/Exercism/cpp/luhn/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		8E54FBE186EE4AFFB975274D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/luhn/build -f /Users/viraltaco/code/Exercism/cpp/luhn/build/CMakeScripts/test_luhn_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		A587056E40C746FAB0DD2923 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/luhn/build -f /Users/viraltaco/code/Exercism/cpp/luhn/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A5862B3C17B4A51BF5184B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADED540728E640EBAAD42F8C /* luhn_test.cpp in Sources */,
+				3668B62024694B95B093EA7D /* tests-main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10F4F5D5C18041F0ADA6346A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C620EFBE30478A8BD57831 /* ZERO_CHECK */;
+			targetProxy = 058C63705EF74E82BC9F2D05 /* PBXContainerItemProxy */;
+		};
+		2BB8F10FE42948CE8E72170E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E90222C19D4F1EB51EA8E2 /* luhn */;
+			targetProxy = AB9E4E974C9744B38D037610 /* PBXContainerItemProxy */;
+		};
+		7852CA81061B47AB9C71468D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C620EFBE30478A8BD57831 /* ZERO_CHECK */;
+			targetProxy = 2F1E486370EF4E8EA25EA802 /* PBXContainerItemProxy */;
+		};
+		85062EC197F64F4BBA0CCDF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E78CD525EF0C42CBBC423E60 /* test_luhn */;
+			targetProxy = 68A68EE1EB414B90953CCAA0 /* PBXContainerItemProxy */;
+		};
+		A091828826854896B2670F61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E90222C19D4F1EB51EA8E2 /* luhn */;
+			targetProxy = 4CB2A54CD99C45C48E6DC57A /* PBXContainerItemProxy */;
+		};
+		A95888D03B644317BE41C8C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98C620EFBE30478A8BD57831 /* ZERO_CHECK */;
+			targetProxy = 36FBD0E28DE440F0A8F2A427 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06D8293D625A4F1289C8C5DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		2C06C92445134B0FBA14D317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		31DEAD8A35F8403DBE3B6E2C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=c++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		3F424DCE1F5948A2B1C999AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=c++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		49997C35AC624FB7832832D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build/build;
+			};
+			name = Debug;
+		};
+		4B889D7A77274920982C14FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		59C23C347CE7400FAB66E0CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		6A07BCE9B2E9415E83A60EFB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		73E974982A0849AE8BE46CB9 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		7F684824490548C1883A121B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		95762708C7404C8099F4F6CA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A0C9C51F409D4A8FB188608A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build/build;
+			};
+			name = Release;
+		};
+		AB188A462946493BAF5E9151 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		B52CAFCF6DE24803A2F3EF74 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+		B7CAEF4EF4A84D168FDADEEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=c++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Debug;
+		};
+		C087A846F5924610A9D15BAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = Release;
+		};
+		D3D6E742E2B847ECAE811DD8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		E5CA2C85F017461997C67E02 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build/build;
+			};
+			name = MinSizeRel;
+		};
+		EE453F610BE644F9AB2F3C67 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		FD30502967E14455979D1A78 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wall",
+					"-Wextra",
+					"-Wpedantic",
+					"-Werror",
+					"'-std=c++1z'",
+				);
+				OTHER_LDFLAGS = (
+					"-L/usr/local/opt/ncurses/lib",
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = luhn;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/code/Exercism/cpp/luhn/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01C8546E8A314D9AB70A2A8A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06D8293D625A4F1289C8C5DE /* Debug */,
+				4B889D7A77274920982C14FB /* Release */,
+				73E974982A0849AE8BE46CB9 /* MinSizeRel */,
+				AB188A462946493BAF5E9151 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		0C2C82A521524319A7DC67F5 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F684824490548C1883A121B /* Debug */,
+				C087A846F5924610A9D15BAE /* Release */,
+				6A07BCE9B2E9415E83A60EFB /* MinSizeRel */,
+				95762708C7404C8099F4F6CA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6081CFAE772446D79BECFB2F /* Build configuration list for PBXAggregateTarget "test_luhn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06C92445134B0FBA14D317 /* Debug */,
+				59C23C347CE7400FAB66E0CC /* Release */,
+				B52CAFCF6DE24803A2F3EF74 /* MinSizeRel */,
+				EE453F610BE644F9AB2F3C67 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		941C70AA163149F1BDECC8D7 /* Build configuration list for PBXNativeTarget "luhn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7CAEF4EF4A84D168FDADEEF /* Debug */,
+				3F424DCE1F5948A2B1C999AE /* Release */,
+				FD30502967E14455979D1A78 /* MinSizeRel */,
+				31DEAD8A35F8403DBE3B6E2C /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B804A2C35D73436CA072739B /* Build configuration list for PBXProject "luhn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49997C35AC624FB7832832D6 /* Debug */,
+				A0C9C51F409D4A8FB188608A /* Release */,
+				E5CA2C85F017461997C67E02 /* MinSizeRel */,
+				D3D6E742E2B847ECAE811DD8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EFC062DE7574CFBB6EAE3CC /* Project object */;
+}

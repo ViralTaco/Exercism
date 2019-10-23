@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/word-count/build/CMakeFiles/test_word-count.dir
+/Users/viraltaco/code/Exercism/cpp/word-count/build/CMakeFiles/word-count.dir
+/Users/viraltaco/code/Exercism/cpp/word-count/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/word-count/build/CMakeFiles/ZERO_CHECK.dir

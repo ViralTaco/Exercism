@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/scrabble-score/build/CMakeFiles/test_scrabble-score.dir
+/Users/viraltaco/code/Exercism/cpp/scrabble-score/build/CMakeFiles/scrabble-score.dir
+/Users/viraltaco/code/Exercism/cpp/scrabble-score/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/scrabble-score/build/CMakeFiles/ZERO_CHECK.dir

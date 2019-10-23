@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/bracket-push/build/CMakeFiles/test_bracket-push.dir
+/Users/viraltaco/code/Exercism/cpp/bracket-push/build/CMakeFiles/bracket-push.dir
+/Users/viraltaco/code/Exercism/cpp/bracket-push/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/bracket-push/build/CMakeFiles/ZERO_CHECK.dir

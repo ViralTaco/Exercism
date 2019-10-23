@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		21532B2948E54776B575D3D4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 41DCA701A89E4844AADA832B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				01810CC932DD41F1B3743A69 /* CMake Rules */,
+			);
+			dependencies = (
+				7081FE3E65FE4E11AB2FC8B9 /* PBXTargetDependency */,
+				F75ADEF20DA14FF5BA426A31 /* PBXTargetDependency */,
+				25FC478DC4B44D27AF4D0301 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		73D85E62F9704177A91CCA46 /* test_word-count */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 7888C07760DA47B2A2A45240 /* Build configuration list for PBXAggregateTarget "test_word-count" */;
+			buildPhases = (
+				296F3B4C8E6B47AC8CDE4619 /* CMake Rules */,
+			);
+			dependencies = (
+				529B1FF81901408ABA716E6C /* PBXTargetDependency */,
+				831BE27AFAF647A4810142E9 /* PBXTargetDependency */,
+			);
+			name = "test_word-count";
+			productName = "test_word-count";
+		};
+		F1D3028932A44CC09DD79AC9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CE89324493C94C93AAC08FDF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				132E5F740B0243018BB3FD10 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		86DC2131E52847CBA3C99207 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.cpp */ = {isa = PBXBuildFile; fileRef = 6066860F96274BE6A9B141BA /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.cpp */; };
+		87FBF16D2BE8419F8ADCE940 /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 2207A2C5F40A42BDBD855089 /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */; };
+		AE80E84254204940AE0E01D6 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.h */ = {isa = PBXBuildFile; fileRef = FEF6BC9FBE77494D8CEF7C45 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.h */; };
+		C665A3EEC6494C70ADE549D3 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count_test.cpp */ = {isa = PBXBuildFile; fileRef = 88453796CE2743EC9D3EF519 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1A035BFE900F49839CA9EA93 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		1CE07FECB93044658871ED25 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		458E18B2746C4A76BE72257D /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		4AF81B76FF344F999E7A71B5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0259257461944B25AE37B1F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7DFD0478514CF5BA3305B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D3028932A44CC09DD79AC9;
+			remoteInfo = ZERO_CHECK;
+		};
+		3752090F4BAA495CACD2FB15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7DFD0478514CF5BA3305B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73D85E62F9704177A91CCA46;
+			remoteInfo = "test_word-count";
+		};
+		88946546E57A460B98DCC272 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7DFD0478514CF5BA3305B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D3028932A44CC09DD79AC9;
+			remoteInfo = ZERO_CHECK;
+		};
+		8B172C8656174F80A9778380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7DFD0478514CF5BA3305B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D3028932A44CC09DD79AC9;
+			remoteInfo = ZERO_CHECK;
+		};
+		D213870D675B40E2BFB34BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7DFD0478514CF5BA3305B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55DB903EEA840DE8209CCC0;
+			remoteInfo = "word-count";
+		};
+		FCAD95A1836C4F668A0EF017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E7DFD0478514CF5BA3305B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E55DB903EEA840DE8209CCC0;
+			remoteInfo = "word-count";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2207A2C5F40A42BDBD855089 /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		515367FB82C9480EA13FE1D3 /* word-count */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "word-count"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6066860F96274BE6A9B141BA /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = word_count.cpp; path = word_count.cpp; sourceTree = SOURCE_ROOT; };
+		88453796CE2743EC9D3EF519 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = word_count_test.cpp; path = word_count_test.cpp; sourceTree = SOURCE_ROOT; };
+		B57AD1EA9B4C47918C5DA46A /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C64296422CE249038EEA4B75 /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FEF6BC9FBE77494D8CEF7C45 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = word_count.h; path = word_count.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		009BD87053724CB3977EC3ED /* word-count */ = {
+			isa = PBXGroup;
+			children = (
+				36E4D1B9F646477E965C8822 /* Source Files */,
+				61EB7707EE3B43538036D68A /* Header Files */,
+				2207A2C5F40A42BDBD855089 /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */,
+			);
+			name = "word-count";
+			sourceTree = "<group>";
+		};
+		24712CFCCAE7400AA4648F26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				515367FB82C9480EA13FE1D3 /* word-count */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3579CA08CFCF4176992A4F6E = {
+			isa = PBXGroup;
+			children = (
+				AFFF8C581F974671971E781F /* test_word-count */,
+				009BD87053724CB3977EC3ED /* word-count */,
+				EFF75D9DDC7F4A6488D5CA16 /* ALL_BUILD */,
+				24712CFCCAE7400AA4648F26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36E4D1B9F646477E965C8822 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6066860F96274BE6A9B141BA /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.cpp */,
+				88453796CE2743EC9D3EF519 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4AB19148D9714CA59DE497A9 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		5B11D9AA3C3D42F79C537981 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		61EB7707EE3B43538036D68A /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEF6BC9FBE77494D8CEF7C45 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		AFFF8C581F974671971E781F /* test_word-count */ = {
+			isa = PBXGroup;
+			children = (
+				5B11D9AA3C3D42F79C537981 /* CMake Rules */,
+				C64296422CE249038EEA4B75 /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */,
+			);
+			name = "test_word-count";
+			sourceTree = "<group>";
+		};
+		EFF75D9DDC7F4A6488D5CA16 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4AB19148D9714CA59DE497A9 /* CMake Rules */,
+				B57AD1EA9B4C47918C5DA46A /* /Users/viraltaco/code/Exercism/cpp/word-count/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E55DB903EEA840DE8209CCC0 /* word-count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5CAE19DCA340B9A83E85CC /* Build configuration list for PBXNativeTarget "word-count" */;
+			buildPhases = (
+				5C3A63A72F584698B71E8256 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3367EEC2EFB40B8B74CAD8F /* PBXTargetDependency */,
+			);
+			name = "word-count";
+			productName = "word-count";
+			productReference = 515367FB82C9480EA13FE1D3 /* word-count */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E7DFD0478514CF5BA3305B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 301A91A3D71C4779AA2C5DD4 /* Build configuration list for PBXProject "word-count" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				1A035BFE900F49839CA9EA93 /* Debug */,
+				458E18B2746C4A76BE72257D /* Release */,
+				1CE07FECB93044658871ED25 /* MinSizeRel */,
+				4AF81B76FF344F999E7A71B5 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 3579CA08CFCF4176992A4F6E;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				21532B2948E54776B575D3D4 /* ALL_BUILD */,
+				F1D3028932A44CC09DD79AC9 /* ZERO_CHECK */,
+				73D85E62F9704177A91CCA46 /* test_word-count */,
+				E55DB903EEA840DE8209CCC0 /* word-count */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01810CC932DD41F1B3743A69 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/word-count/build -f /Users/viraltaco/code/Exercism/cpp/word-count/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		0AD771EE499347DF958D570F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		132E5F740B0243018BB3FD10 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/word-count/build -f /Users/viraltaco/code/Exercism/cpp/word-count/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		296F3B4C8E6B47AC8CDE4619 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/word-count/build -f /Users/viraltaco/code/Exercism/cpp/word-count/build/CMakeScripts/test_word-count_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		3F4947F4E2164AE8B3EDAC67 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F8983435B61C48199811FCFC = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C3A63A72F584698B71E8256 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86DC2131E52847CBA3C99207 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count.cpp */,
+				C665A3EEC6494C70ADE549D3 /* /Users/viraltaco/code/Exercism/cpp/word-count/word_count_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25FC478DC4B44D27AF4D0301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55DB903EEA840DE8209CCC0 /* word-count */;
+			targetProxy = FCAD95A1836C4F668A0EF017 /* PBXContainerItemProxy */;
+		};
+		529B1FF81901408ABA716E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D3028932A44CC09DD79AC9 /* ZERO_CHECK */;
+			targetProxy = 88946546E57A460B98DCC272 /* PBXContainerItemProxy */;
+		};
+		7081FE3E65FE4E11AB2FC8B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D3028932A44CC09DD79AC9 /* ZERO_CHECK */;
+			targetProxy = 0259257461944B25AE37B1F5 /* PBXContainerItemProxy */;
+		};
+		831BE27AFAF647A4810142E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E55DB903EEA840DE8209CCC0 /* word-count */;
+			targetProxy = D213870D675B40E2BFB34BF5 /* PBXContainerItemProxy */;
+		};
+		C3367EEC2EFB40B8B74CAD8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1D3028932A44CC09DD79AC9 /* ZERO_CHECK */;
+			targetProxy = 8B172C8656174F80A9778380 /* PBXContainerItemProxy */;
+		};
+		F75ADEF20DA14FF5BA426A31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73D85E62F9704177A91CCA46 /* test_word-count */;
+			targetProxy = 3752090F4BAA495CACD2FB15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08B609508CB348239FEEA55E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		099F79533C00416A83DF1416 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1D07331648CC4F9D8E9C6B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3444598C5034436AB5CA12D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		36656ABE82F74E8984CF1952 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build/build";
+			};
+			name = MinSizeRel;
+		};
+		3A838E08FF2E4140A728D3F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		504584D4F4494DB78B742E48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5E82190BE3B74D98BD0D8829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		622DB1FEF5644C9DABFDC25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		724A9BDEA7B64A8DA0C4797A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		724AD6DCA6D44994AA0D2701 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7320E62D5AF04C53BDDDB74E /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		8BCA1C0844F649DBBE48C170 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A89219B4D9AD4332B3699B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build/build";
+			};
+			name = Debug;
+		};
+		A95AE983E08245DCB2B16FC5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		AB545D0243F047BA8883D8A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build/build";
+			};
+			name = Release;
+		};
+		AE6623C50B9148E688BA51A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		AF2A9545794D467D9A9209FC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D5F32825E4294B45AD20D2A2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DA20165A7EDB4B2F801959B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_word-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/word-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		301A91A3D71C4779AA2C5DD4 /* Build configuration list for PBXProject "word-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A89219B4D9AD4332B3699B84 /* Debug */,
+				AB545D0243F047BA8883D8A3 /* Release */,
+				36656ABE82F74E8984CF1952 /* MinSizeRel */,
+				08B609508CB348239FEEA55E /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41DCA701A89E4844AADA832B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A838E08FF2E4140A728D3F6 /* Debug */,
+				3444598C5034436AB5CA12D6 /* Release */,
+				7320E62D5AF04C53BDDDB74E /* MinSizeRel */,
+				099F79533C00416A83DF1416 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7888C07760DA47B2A2A45240 /* Build configuration list for PBXAggregateTarget "test_word-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20165A7EDB4B2F801959B6 /* Debug */,
+				622DB1FEF5644C9DABFDC25E /* Release */,
+				724A9BDEA7B64A8DA0C4797A /* MinSizeRel */,
+				724AD6DCA6D44994AA0D2701 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7E5CAE19DCA340B9A83E85CC /* Build configuration list for PBXNativeTarget "word-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E82190BE3B74D98BD0D8829 /* Debug */,
+				504584D4F4494DB78B742E48 /* Release */,
+				A95AE983E08245DCB2B16FC5 /* MinSizeRel */,
+				D5F32825E4294B45AD20D2A2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CE89324493C94C93AAC08FDF /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE6623C50B9148E688BA51A6 /* Debug */,
+				1D07331648CC4F9D8E9C6B38 /* Release */,
+				8BCA1C0844F649DBBE48C170 /* MinSizeRel */,
+				AF2A9545794D467D9A9209FC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E7DFD0478514CF5BA3305B9 /* Project object */;
+}

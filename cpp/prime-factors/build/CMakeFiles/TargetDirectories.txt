@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/prime-factors/build/CMakeFiles/test_prime-factors.dir
+/Users/viraltaco/code/Exercism/cpp/prime-factors/build/CMakeFiles/prime-factors.dir
+/Users/viraltaco/code/Exercism/cpp/prime-factors/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/prime-factors/build/CMakeFiles/ZERO_CHECK.dir

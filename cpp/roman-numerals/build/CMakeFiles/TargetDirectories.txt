@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/CMakeFiles/test_roman-numerals.dir
+/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/CMakeFiles/roman-numerals.dir
+/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/CMakeFiles/ZERO_CHECK.dir

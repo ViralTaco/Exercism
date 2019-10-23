@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeFiles/test_pangram.dir
+/Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeFiles/pangram.dir
+/Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeFiles/ZERO_CHECK.dir

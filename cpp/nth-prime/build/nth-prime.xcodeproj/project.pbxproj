@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04D16565EF6C49D685DE5BAF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B64A394B0D5945948F44EB83 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				648D15211DE14014B018FA9E /* CMake Rules */,
+			);
+			dependencies = (
+				7ABD7DD321A642739FE365FC /* PBXTargetDependency */,
+				02714974CE16419E8B6826CD /* PBXTargetDependency */,
+				DC58FEA1625949BEA1B83FA9 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		7CE59F5EADC5476EA589C252 /* test_nth-prime */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2DFF27D3BE644C1995D902F3 /* Build configuration list for PBXAggregateTarget "test_nth-prime" */;
+			buildPhases = (
+				83AE88C7D00A4FECA6B2426A /* CMake Rules */,
+			);
+			dependencies = (
+				8955A881F9EB46EFAC2FED69 /* PBXTargetDependency */,
+				47AD20881CE14885AB68D896 /* PBXTargetDependency */,
+			);
+			name = "test_nth-prime";
+			productName = "test_nth-prime";
+		};
+		B97D1BAE24554AA18997C325 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = AED43E6EF7294FEDA2FFD2DA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				A01531A46CCC4FA69D2890B2 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		506EAD84110D4649904EBE53 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.h */ = {isa = PBXBuildFile; fileRef = BFF5639367784D8FAECF80DB /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.h */; };
+		C3E7F576C1644FF6875FC892 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime_test.cpp */ = {isa = PBXBuildFile; fileRef = 59AA78E7F38642B88402993A /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime_test.cpp */; };
+		CE4D7215899F4EEF9DA6E9D1 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D6AAAECAE69244FCB5608E43 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */; };
+		E64A4393AC6942B581157B23 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.cpp */ = {isa = PBXBuildFile; fileRef = C2F5B545B78C46FE9241DC97 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		33F8BD99096346E2B2D29674 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7993DCB76A7C4AB19DAD2BB5 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8C535685F5B3457DA09346B9 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C2B106C272C24B289CC3DE95 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0B3C4BED18674C65AC1A2E30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9251486C8A04C8880F4255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B97D1BAE24554AA18997C325;
+			remoteInfo = ZERO_CHECK;
+		};
+		59449D411EBF4551A4A02EF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9251486C8A04C8880F4255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B97D1BAE24554AA18997C325;
+			remoteInfo = ZERO_CHECK;
+		};
+		921A776D1B914CE5B0A26A65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9251486C8A04C8880F4255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CE59F5EADC5476EA589C252;
+			remoteInfo = "test_nth-prime";
+		};
+		95A8AAAE53DA42B1B162A738 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9251486C8A04C8880F4255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B97D1BAE24554AA18997C325;
+			remoteInfo = ZERO_CHECK;
+		};
+		9CFB8575DC2F4A948A05637B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9251486C8A04C8880F4255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699C56FF4BF1426D9FB23760;
+			remoteInfo = "nth-prime";
+		};
+		D9CA91E16F21463A856278FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C9251486C8A04C8880F4255B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 699C56FF4BF1426D9FB23760;
+			remoteInfo = "nth-prime";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C7D36EE44094EEBB4216CBC /* nth-prime */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "nth-prime"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59AA78E7F38642B88402993A /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nth_prime_test.cpp; path = nth_prime_test.cpp; sourceTree = SOURCE_ROOT; };
+		6DB13FC3AC75419880ED2BD3 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BFF5639367784D8FAECF80DB /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nth_prime.h; path = nth_prime.h; sourceTree = SOURCE_ROOT; };
+		C2F5B545B78C46FE9241DC97 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nth_prime.cpp; path = nth_prime.cpp; sourceTree = SOURCE_ROOT; };
+		D6AAAECAE69244FCB5608E43 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E7A37EA3DFE5459E88CD3CB0 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		21A05393E18F4F8B8DB56733 /* test_nth-prime */ = {
+			isa = PBXGroup;
+			children = (
+				9458252AEE814E31906E9C15 /* CMake Rules */,
+				6DB13FC3AC75419880ED2BD3 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */,
+			);
+			name = "test_nth-prime";
+			sourceTree = "<group>";
+		};
+		4347890CC2E24F73AD8DD5B3 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6F2105DB591A4323ADC797CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7D36EE44094EEBB4216CBC /* nth-prime */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		703E7F9BE2564F33BC8BE91B = {
+			isa = PBXGroup;
+			children = (
+				21A05393E18F4F8B8DB56733 /* test_nth-prime */,
+				8D75E1A5FB394E27A708A95B /* nth-prime */,
+				B4477B9344BC43B9B81DBF89 /* ALL_BUILD */,
+				6F2105DB591A4323ADC797CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D75E1A5FB394E27A708A95B /* nth-prime */ = {
+			isa = PBXGroup;
+			children = (
+				E10919B98B304F1283D980FA /* Source Files */,
+				A420F0E2401B41868F30DD20 /* Header Files */,
+				D6AAAECAE69244FCB5608E43 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */,
+			);
+			name = "nth-prime";
+			sourceTree = "<group>";
+		};
+		9458252AEE814E31906E9C15 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A420F0E2401B41868F30DD20 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5639367784D8FAECF80DB /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		B4477B9344BC43B9B81DBF89 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				4347890CC2E24F73AD8DD5B3 /* CMake Rules */,
+				E7A37EA3DFE5459E88CD3CB0 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E10919B98B304F1283D980FA /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2F5B545B78C46FE9241DC97 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.cpp */,
+				59AA78E7F38642B88402993A /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		699C56FF4BF1426D9FB23760 /* nth-prime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DC2034F0BD46BB9FD2A2F9 /* Build configuration list for PBXNativeTarget "nth-prime" */;
+			buildPhases = (
+				F9F7DAC53510427B8E4FC408 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092B02BD3A644D80AA59E455 /* PBXTargetDependency */,
+			);
+			name = "nth-prime";
+			productName = "nth-prime";
+			productReference = 2C7D36EE44094EEBB4216CBC /* nth-prime */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9251486C8A04C8880F4255B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 3E66CE677E50448C8DD61DFD /* Build configuration list for PBXProject "nth-prime" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				C2B106C272C24B289CC3DE95 /* Debug */,
+				8C535685F5B3457DA09346B9 /* Release */,
+				33F8BD99096346E2B2D29674 /* MinSizeRel */,
+				7993DCB76A7C4AB19DAD2BB5 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 703E7F9BE2564F33BC8BE91B;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				04D16565EF6C49D685DE5BAF /* ALL_BUILD */,
+				B97D1BAE24554AA18997C325 /* ZERO_CHECK */,
+				699C56FF4BF1426D9FB23760 /* nth-prime */,
+				7CE59F5EADC5476EA589C252 /* test_nth-prime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BDDB4AEDEE947BE9920A64F = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3D4453E8E1CA440F8185AEDD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		4F519BB44B3540A1A24AACDE = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		648D15211DE14014B018FA9E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/nth-prime/build -f /Users/viraltaco/code/Exercism/cpp/nth-prime/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		83AE88C7D00A4FECA6B2426A /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/nth-prime/build -f /Users/viraltaco/code/Exercism/cpp/nth-prime/build/CMakeScripts/test_nth-prime_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		A01531A46CCC4FA69D2890B2 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/nth-prime/build -f /Users/viraltaco/code/Exercism/cpp/nth-prime/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9F7DAC53510427B8E4FC408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E64A4393AC6942B581157B23 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime.cpp */,
+				C3E7F576C1644FF6875FC892 /* /Users/viraltaco/code/Exercism/cpp/nth-prime/nth_prime_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02714974CE16419E8B6826CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699C56FF4BF1426D9FB23760 /* nth-prime */;
+			targetProxy = 9CFB8575DC2F4A948A05637B /* PBXContainerItemProxy */;
+		};
+		092B02BD3A644D80AA59E455 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B97D1BAE24554AA18997C325 /* ZERO_CHECK */;
+			targetProxy = 59449D411EBF4551A4A02EF7 /* PBXContainerItemProxy */;
+		};
+		47AD20881CE14885AB68D896 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B97D1BAE24554AA18997C325 /* ZERO_CHECK */;
+			targetProxy = 0B3C4BED18674C65AC1A2E30 /* PBXContainerItemProxy */;
+		};
+		7ABD7DD321A642739FE365FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CE59F5EADC5476EA589C252 /* test_nth-prime */;
+			targetProxy = 921A776D1B914CE5B0A26A65 /* PBXContainerItemProxy */;
+		};
+		8955A881F9EB46EFAC2FED69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 699C56FF4BF1426D9FB23760 /* nth-prime */;
+			targetProxy = D9CA91E16F21463A856278FA /* PBXContainerItemProxy */;
+		};
+		DC58FEA1625949BEA1B83FA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B97D1BAE24554AA18997C325 /* ZERO_CHECK */;
+			targetProxy = 95A8AAAE53DA42B1B162A738 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A9040C5867C4CCD9E389812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		11E0FE5C0F514C67A3779D39 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		293EB1D1BE3B4AF68B945648 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build/build";
+			};
+			name = MinSizeRel;
+		};
+		29B7870C1EB54A9788FBB2C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		30A6D8202D56424781BF6B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		447F25F2EDA3433A86D8C731 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		558A72EE5CB445D2B9AC6F64 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		6C0B47A9AFF24254A335FA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build/build";
+			};
+			name = Debug;
+		};
+		80EBB87D8AA34DB1A68FB984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		85E7544ED8F544DFBDE12486 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		86C6246CFEDA4F859B4FBBA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build/build";
+			};
+			name = Release;
+		};
+		8964C1BEA05D44ABB7A13B59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8A57824262BC481A81A311D2 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B68A0DDC65C64BF68BF4B842 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BAE302E092544B15BFA9F2F0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C7AC55794E0F4024B3302D00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D8E55E4DDA4B4ADEB9DA9DB1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		DA4A2AE59EF44AADB98AF365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F151751EDCB74B3AB429AE78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nth-prime";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F377744F5F984CA1B527ED81 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nth-prime/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DFF27D3BE644C1995D902F3 /* Build configuration list for PBXAggregateTarget "test_nth-prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA4A2AE59EF44AADB98AF365 /* Debug */,
+				F151751EDCB74B3AB429AE78 /* Release */,
+				11E0FE5C0F514C67A3779D39 /* MinSizeRel */,
+				8A57824262BC481A81A311D2 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E66CE677E50448C8DD61DFD /* Build configuration list for PBXProject "nth-prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0B47A9AFF24254A335FA7E /* Debug */,
+				86C6246CFEDA4F859B4FBBA3 /* Release */,
+				293EB1D1BE3B4AF68B945648 /* MinSizeRel */,
+				558A72EE5CB445D2B9AC6F64 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AED43E6EF7294FEDA2FFD2DA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29B7870C1EB54A9788FBB2C8 /* Debug */,
+				0A9040C5867C4CCD9E389812 /* Release */,
+				BAE302E092544B15BFA9F2F0 /* MinSizeRel */,
+				D8E55E4DDA4B4ADEB9DA9DB1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B64A394B0D5945948F44EB83 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EBB87D8AA34DB1A68FB984 /* Debug */,
+				30A6D8202D56424781BF6B43 /* Release */,
+				F377744F5F984CA1B527ED81 /* MinSizeRel */,
+				85E7544ED8F544DFBDE12486 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8DC2034F0BD46BB9FD2A2F9 /* Build configuration list for PBXNativeTarget "nth-prime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8964C1BEA05D44ABB7A13B59 /* Debug */,
+				C7AC55794E0F4024B3302D00 /* Release */,
+				B68A0DDC65C64BF68BF4B842 /* MinSizeRel */,
+				447F25F2EDA3433A86D8C731 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9251486C8A04C8880F4255B /* Project object */;
+}

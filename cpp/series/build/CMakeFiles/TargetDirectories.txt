@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/series/build/CMakeFiles/test_series.dir
+/Users/viraltaco/code/Exercism/cpp/series/build/CMakeFiles/series.dir
+/Users/viraltaco/code/Exercism/cpp/series/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/series/build/CMakeFiles/ZERO_CHECK.dir

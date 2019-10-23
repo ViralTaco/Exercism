@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/robot-name/build/CMakeFiles/test_robot-name.dir
+/Users/viraltaco/code/Exercism/cpp/robot-name/build/CMakeFiles/robot-name.dir
+/Users/viraltaco/code/Exercism/cpp/robot-name/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/robot-name/build/CMakeFiles/ZERO_CHECK.dir

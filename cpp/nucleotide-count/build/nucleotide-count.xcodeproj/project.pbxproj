@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1721303D352A4F8CBC426063 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0D4C761038CF4E46B8255699 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				0688AEE3FF224A95BE6902A0 /* CMake Rules */,
+			);
+			dependencies = (
+				3BD61DA51D01431E82C90E5E /* PBXTargetDependency */,
+				800BE448064B4B90A387F502 /* PBXTargetDependency */,
+				B76F45EC65DE439F8861B394 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D5DD666FF18445B6A5D3833D /* test_nucleotide-count */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B7247357CF4C4545A3EAB240 /* Build configuration list for PBXAggregateTarget "test_nucleotide-count" */;
+			buildPhases = (
+				7DD1A2E00D474323BCD3FB12 /* CMake Rules */,
+			);
+			dependencies = (
+				DF213A8A8A9E420EBBB1B95C /* PBXTargetDependency */,
+				8C3A0F998D17444EA618F01E /* PBXTargetDependency */,
+			);
+			name = "test_nucleotide-count";
+			productName = "test_nucleotide-count";
+		};
+		FA28DE618C374A1E9FF8A32E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E094D0C2947C4306AB8D0B9B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F4DABC2A28784991B0967F15 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		57892E08A2A04F9E9039E708 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */ = {isa = PBXBuildFile; fileRef = F376C97872E14C41B4F1C732 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */; };
+		612AC54BB59147AE93F62967 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */ = {isa = PBXBuildFile; fileRef = 303440EEA9424029B5FE0632 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */; };
+		A12984C1C8AA430F9F88137B /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.h */ = {isa = PBXBuildFile; fileRef = B1E0E7A358FA474E866F60AB /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.h */; };
+		D2C5B4BE7CB742B890441286 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 07DBCCE1148C4813A210B89D /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		6E4EAC73A35148088344005E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		BF8E02EE613445BD9FDB8666 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		EAFD55D12DB44643874C546C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		FD3D3E6F51E040FCA4E4F4C6 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		06181F068F954B39B8C08354 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5067EFE062E74D9C8B032C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3F8A5E77CA4FE7AF026608;
+			remoteInfo = "nucleotide-count";
+		};
+		73155A2F173849C8803190C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5067EFE062E74D9C8B032C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5DD666FF18445B6A5D3833D;
+			remoteInfo = "test_nucleotide-count";
+		};
+		8E8C39F90B9141CB8D2D6FDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5067EFE062E74D9C8B032C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3F8A5E77CA4FE7AF026608;
+			remoteInfo = "nucleotide-count";
+		};
+		B076E8F2276040E79A6481F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5067EFE062E74D9C8B032C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA28DE618C374A1E9FF8A32E;
+			remoteInfo = ZERO_CHECK;
+		};
+		B4D30F71223F480DB3FAAC2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5067EFE062E74D9C8B032C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA28DE618C374A1E9FF8A32E;
+			remoteInfo = ZERO_CHECK;
+		};
+		CEEF9A3211C14AA88AAAEE2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5067EFE062E74D9C8B032C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA28DE618C374A1E9FF8A32E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07DBCCE1148C4813A210B89D /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		303440EEA9424029B5FE0632 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nucleotide_count_test.cpp; path = nucleotide_count_test.cpp; sourceTree = SOURCE_ROOT; };
+		708FDEE0B910448F8E3B5B99 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		874C55DA2C6F4C349F5A8C19 /* nucleotide-count */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "nucleotide-count"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BD73C4BFAC14738B6043E81 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B1E0E7A358FA474E866F60AB /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = nucleotide_count.h; path = nucleotide_count.h; sourceTree = SOURCE_ROOT; };
+		F376C97872E14C41B4F1C732 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = nucleotide_count.cpp; path = nucleotide_count.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		05E211AC4D194EDD965238D1 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				FBD4FCD77CE2435AAF072BFF /* CMake Rules */,
+				8BD73C4BFAC14738B6043E81 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3F4E538B97A047F39927CCA3 /* test_nucleotide-count */ = {
+			isa = PBXGroup;
+			children = (
+				CBE24888520747BAA832FFD1 /* CMake Rules */,
+				708FDEE0B910448F8E3B5B99 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */,
+			);
+			name = "test_nucleotide-count";
+			sourceTree = "<group>";
+		};
+		42B0ECEAE50D43A3ABBABA78 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B1E0E7A358FA474E866F60AB /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4DB733A48C164D32AF5D2048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				874C55DA2C6F4C349F5A8C19 /* nucleotide-count */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90A92FD04D6249FCAB2EEB84 = {
+			isa = PBXGroup;
+			children = (
+				3F4E538B97A047F39927CCA3 /* test_nucleotide-count */,
+				A6F32E26EE1F4A62BE105DB7 /* nucleotide-count */,
+				05E211AC4D194EDD965238D1 /* ALL_BUILD */,
+				4DB733A48C164D32AF5D2048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6F32E26EE1F4A62BE105DB7 /* nucleotide-count */ = {
+			isa = PBXGroup;
+			children = (
+				BB29F88A98A545CA92B9E2A6 /* Source Files */,
+				42B0ECEAE50D43A3ABBABA78 /* Header Files */,
+				07DBCCE1148C4813A210B89D /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/CMakeLists.txt */,
+			);
+			name = "nucleotide-count";
+			sourceTree = "<group>";
+		};
+		BB29F88A98A545CA92B9E2A6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				F376C97872E14C41B4F1C732 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */,
+				303440EEA9424029B5FE0632 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		CBE24888520747BAA832FFD1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FBD4FCD77CE2435AAF072BFF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3F8A5E77CA4FE7AF026608 /* nucleotide-count */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B39F0B17AF3E478DAFA2C7DC /* Build configuration list for PBXNativeTarget "nucleotide-count" */;
+			buildPhases = (
+				3FA5E6A0F18F43AD9341A635 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE8F83ABAB0E4589BF92FCAB /* PBXTargetDependency */,
+			);
+			name = "nucleotide-count";
+			productName = "nucleotide-count";
+			productReference = 874C55DA2C6F4C349F5A8C19 /* nucleotide-count */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5067EFE062E74D9C8B032C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 5260585BC3D04FCA91557366 /* Build configuration list for PBXProject "nucleotide-count" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BF8E02EE613445BD9FDB8666 /* Debug */,
+				6E4EAC73A35148088344005E /* Release */,
+				EAFD55D12DB44643874C546C /* MinSizeRel */,
+				FD3D3E6F51E040FCA4E4F4C6 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 90A92FD04D6249FCAB2EEB84;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				1721303D352A4F8CBC426063 /* ALL_BUILD */,
+				FA28DE618C374A1E9FF8A32E /* ZERO_CHECK */,
+				DB3F8A5E77CA4FE7AF026608 /* nucleotide-count */,
+				D5DD666FF18445B6A5D3833D /* test_nucleotide-count */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0688AEE3FF224A95BE6902A0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/nucleotide-count/build -f /Users/viraltaco/code/Exercism/cpp/nucleotide-count/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		64AFEA2B6D134C74B29AD247 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7DD1A2E00D474323BCD3FB12 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/nucleotide-count/build -f /Users/viraltaco/code/Exercism/cpp/nucleotide-count/build/CMakeScripts/test_nucleotide-count_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		82DCF0BD233F4D1AB478305D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8F66172DE253455FA230C9CF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F4DABC2A28784991B0967F15 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/nucleotide-count/build -f /Users/viraltaco/code/Exercism/cpp/nucleotide-count/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FA5E6A0F18F43AD9341A635 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57892E08A2A04F9E9039E708 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count.cpp */,
+				612AC54BB59147AE93F62967 /* /Users/viraltaco/code/Exercism/cpp/nucleotide-count/nucleotide_count_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD61DA51D01431E82C90E5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA28DE618C374A1E9FF8A32E /* ZERO_CHECK */;
+			targetProxy = CEEF9A3211C14AA88AAAEE2D /* PBXContainerItemProxy */;
+		};
+		800BE448064B4B90A387F502 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3F8A5E77CA4FE7AF026608 /* nucleotide-count */;
+			targetProxy = 06181F068F954B39B8C08354 /* PBXContainerItemProxy */;
+		};
+		8C3A0F998D17444EA618F01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3F8A5E77CA4FE7AF026608 /* nucleotide-count */;
+			targetProxy = 8E8C39F90B9141CB8D2D6FDE /* PBXContainerItemProxy */;
+		};
+		B76F45EC65DE439F8861B394 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5DD666FF18445B6A5D3833D /* test_nucleotide-count */;
+			targetProxy = 73155A2F173849C8803190C4 /* PBXContainerItemProxy */;
+		};
+		CE8F83ABAB0E4589BF92FCAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA28DE618C374A1E9FF8A32E /* ZERO_CHECK */;
+			targetProxy = B4D30F71223F480DB3FAAC2C /* PBXContainerItemProxy */;
+		};
+		DF213A8A8A9E420EBBB1B95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA28DE618C374A1E9FF8A32E /* ZERO_CHECK */;
+			targetProxy = B076E8F2276040E79A6481F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		091BBBDC5BE04671914699C2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0F3F2623F3CD4082B20FBB63 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		29755EBABB06490687847E12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2CEFD9427F574682BE543343 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		2D1496C4495E4C94B14CC4E5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		38879F3CA27B42239A8F8610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build/build";
+			};
+			name = Debug;
+		};
+		3D260643FE5D429ABA14F247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		57777734739D4D36AE7507E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		657B5CF155254532830EA486 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		670B12858AD84619A2878102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8AB81F5FE03340B4AF668032 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		96D05D3E5EE1481FA79DAE83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build/build";
+			};
+			name = Release;
+		};
+		A512BC2092DA4C0A9AEE328C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A89B81E267D942EF9298FD90 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B2F57570D5BF4DB583062F21 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BDA35AC1A8DF45098F9A2B1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_nucleotide-count";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D54EBFAFC3E44029990F3182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D77CBCE4CC1B40EE8A4868F1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F90A7F2ABA64407C94A6C843 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build/build";
+			};
+			name = MinSizeRel;
+		};
+		F927D931A5134D2AB36C1C7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/nucleotide-count/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4C761038CF4E46B8255699 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F927D931A5134D2AB36C1C7E /* Debug */,
+				D54EBFAFC3E44029990F3182 /* Release */,
+				091BBBDC5BE04671914699C2 /* MinSizeRel */,
+				D77CBCE4CC1B40EE8A4868F1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5260585BC3D04FCA91557366 /* Build configuration list for PBXProject "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38879F3CA27B42239A8F8610 /* Debug */,
+				96D05D3E5EE1481FA79DAE83 /* Release */,
+				F90A7F2ABA64407C94A6C843 /* MinSizeRel */,
+				2CEFD9427F574682BE543343 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B39F0B17AF3E478DAFA2C7DC /* Build configuration list for PBXNativeTarget "nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29755EBABB06490687847E12 /* Debug */,
+				A512BC2092DA4C0A9AEE328C /* Release */,
+				0F3F2623F3CD4082B20FBB63 /* MinSizeRel */,
+				8AB81F5FE03340B4AF668032 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7247357CF4C4545A3EAB240 /* Build configuration list for PBXAggregateTarget "test_nucleotide-count" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDA35AC1A8DF45098F9A2B1A /* Debug */,
+				57777734739D4D36AE7507E8 /* Release */,
+				A89B81E267D942EF9298FD90 /* MinSizeRel */,
+				2D1496C4495E4C94B14CC4E5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E094D0C2947C4306AB8D0B9B /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D260643FE5D429ABA14F247 /* Debug */,
+				670B12858AD84619A2878102 /* Release */,
+				B2F57570D5BF4DB583062F21 /* MinSizeRel */,
+				657B5CF155254532830EA486 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5067EFE062E74D9C8B032C76 /* Project object */;
+}

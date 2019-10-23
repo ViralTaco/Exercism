@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/grade-school/build/CMakeFiles/test_grade-school.dir
+/Users/viraltaco/code/Exercism/cpp/grade-school/build/CMakeFiles/grade-school.dir
+/Users/viraltaco/code/Exercism/cpp/grade-school/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/grade-school/build/CMakeFiles/ZERO_CHECK.dir

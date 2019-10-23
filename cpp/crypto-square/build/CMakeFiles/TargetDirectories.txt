@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/crypto-square/build/CMakeFiles/test_crypto-square.dir
+/Users/viraltaco/code/Exercism/cpp/crypto-square/build/CMakeFiles/crypto-square.dir
+/Users/viraltaco/code/Exercism/cpp/crypto-square/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/crypto-square/build/CMakeFiles/ZERO_CHECK.dir

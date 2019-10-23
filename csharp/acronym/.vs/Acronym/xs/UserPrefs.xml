@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{19203F9E-5F14-494E-ABCB-242B65C946AC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Acronym.cs">
+    <Files>
+      <File FileName="Acronym.cs" Line="5" Column="47" />
+      <File FileName="AcronymTest.cs" Line="46" Column="50" />
+      <File FileName="Regex Toolkit" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Acronym" expanded="True">
+            <Node name="Acronym" expanded="True">
+              <Node name="Acronym.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Acronym" expanded="True">
+            <Node name="Acronym" expanded="True">
+              <Node name="AcronymTest" expanded="True">
+                <Node name="Apostrophes" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Acronym PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

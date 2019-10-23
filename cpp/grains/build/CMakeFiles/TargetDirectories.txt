@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/grains/build/CMakeFiles/test_grains.dir
+/Users/viraltaco/code/Exercism/cpp/grains/build/CMakeFiles/grains.dir
+/Users/viraltaco/code/Exercism/cpp/grains/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/grains/build/CMakeFiles/ZERO_CHECK.dir

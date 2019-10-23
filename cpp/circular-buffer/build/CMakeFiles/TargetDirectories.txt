@@ -1,0 +1,4 @@
+/Users/viraltaco/code/code/Exercism/cpp/circular-buffer/build/CMakeFiles/test_circular-buffer.dir
+/Users/viraltaco/code/code/Exercism/cpp/circular-buffer/build/CMakeFiles/circular-buffer.dir
+/Users/viraltaco/code/code/Exercism/cpp/circular-buffer/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/code/Exercism/cpp/circular-buffer/build/CMakeFiles/ZERO_CHECK.dir

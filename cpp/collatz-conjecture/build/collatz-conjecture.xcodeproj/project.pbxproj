@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4EA67C88EB6340CF9F0D02AA /* test_collatz-conjecture */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 60547CECA9464037A8102A25 /* Build configuration list for PBXAggregateTarget "test_collatz-conjecture" */;
+			buildPhases = (
+				2D67048430784ED58CE30D1E /* CMake Rules */,
+			);
+			dependencies = (
+				1BF5FCE86A4041BBAA5DFFEE /* PBXTargetDependency */,
+				07402EC4C894456EBDE53431 /* PBXTargetDependency */,
+			);
+			name = "test_collatz-conjecture";
+			productName = "test_collatz-conjecture";
+		};
+		AC660829712B424F8EFFFD88 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CAD86CF55B4C4276BB21F58F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				ABA96EFF2F4E48C388C62A25 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E088AEDDC1414B63A9E918D4 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 49FEC8FF122540DB87FB3BC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				8FE3F8B9C36046B19C58841B /* CMake Rules */,
+			);
+			dependencies = (
+				84204748D75848E8AE7BA1C6 /* PBXTargetDependency */,
+				7EAA30E6DB604222B3ABAAAF /* PBXTargetDependency */,
+				4532E61F789F41169A02729C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5CA07D5DCAB149EEA638C319 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B8AF9E7047E34F23A268C6EB /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */; };
+		6946F4650ADC4B8CB46E7904 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.h */ = {isa = PBXBuildFile; fileRef = 32256915711D4ACA8B2012A2 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.h */; };
+		820FCD49D0C84B5C93090B11 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture_test.cpp */ = {isa = PBXBuildFile; fileRef = 8CB703A89CE04A9B8EFDFF52 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture_test.cpp */; };
+		944EA26E01B64944ADB6E2C5 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 190C07CB45D34BF1BCE64906 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/test/tests-main.cpp */; };
+		F0148F0ACB4C47F4B212858D /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.cpp */ = {isa = PBXBuildFile; fileRef = 09EB0438A53D4726B07942BA /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		42BFFB536B854233BFB0633A /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		45D6B19DA2BB4EF0826A8384 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9DE6F71784364A95B31508A0 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		CA64C0755EFB4667AFEDECB8 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1C4ECDEBD64745A5A9E89BBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E9F306D624707AD8E8595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891C9A80D0E843BE8F478FA9;
+			remoteInfo = "collatz-conjecture";
+		};
+		4B2184448AE2411BBD76B966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E9F306D624707AD8E8595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC660829712B424F8EFFFD88;
+			remoteInfo = ZERO_CHECK;
+		};
+		830D71DBF15D4A14A569B87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E9F306D624707AD8E8595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC660829712B424F8EFFFD88;
+			remoteInfo = ZERO_CHECK;
+		};
+		88014B01AF674976B1C8B2EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E9F306D624707AD8E8595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 891C9A80D0E843BE8F478FA9;
+			remoteInfo = "collatz-conjecture";
+		};
+		AD6FFF1FC83349E1ADDC7797 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E9F306D624707AD8E8595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC660829712B424F8EFFFD88;
+			remoteInfo = ZERO_CHECK;
+		};
+		ECB4301E723D416980DAC33C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 379E9F306D624707AD8E8595 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EA67C88EB6340CF9F0D02AA;
+			remoteInfo = "test_collatz-conjecture";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09EB0438A53D4726B07942BA /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = collatz_conjecture.cpp; path = collatz_conjecture.cpp; sourceTree = SOURCE_ROOT; };
+		190C07CB45D34BF1BCE64906 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		32256915711D4ACA8B2012A2 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = collatz_conjecture.h; path = collatz_conjecture.h; sourceTree = SOURCE_ROOT; };
+		679B1E76093F4222ACB089A5 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		8CB703A89CE04A9B8EFDFF52 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = collatz_conjecture_test.cpp; path = collatz_conjecture_test.cpp; sourceTree = SOURCE_ROOT; };
+		A25277CE9F4A4591AE5BBA8F /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B8AF9E7047E34F23A268C6EB /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E4E6040BEB3042D48D224EDE /* collatz-conjecture */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "collatz-conjecture"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0E4147B6AA86424FA6E47A08 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		11D552B16822464D85496211 /* test_collatz-conjecture */ = {
+			isa = PBXGroup;
+			children = (
+				0E4147B6AA86424FA6E47A08 /* CMake Rules */,
+				A25277CE9F4A4591AE5BBA8F /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */,
+			);
+			name = "test_collatz-conjecture";
+			sourceTree = "<group>";
+		};
+		34F660571A57458DBDC855D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4E6040BEB3042D48D224EDE /* collatz-conjecture */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42DF522E09D84B5490963DF0 /* collatz-conjecture */ = {
+			isa = PBXGroup;
+			children = (
+				9A20F5FFB1814D81B4E0E62E /* Source Files */,
+				73E9D85D36934800B5828CB8 /* Header Files */,
+				B8AF9E7047E34F23A268C6EB /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */,
+			);
+			name = "collatz-conjecture";
+			sourceTree = "<group>";
+		};
+		63EC6DF29A724919A87C9C9C = {
+			isa = PBXGroup;
+			children = (
+				11D552B16822464D85496211 /* test_collatz-conjecture */,
+				42DF522E09D84B5490963DF0 /* collatz-conjecture */,
+				9660CBCC1507435890E8E530 /* ALL_BUILD */,
+				34F660571A57458DBDC855D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		73E9D85D36934800B5828CB8 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				32256915711D4ACA8B2012A2 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		789945AAF8E645348E0A66ED /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		9660CBCC1507435890E8E530 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				789945AAF8E645348E0A66ED /* CMake Rules */,
+				679B1E76093F4222ACB089A5 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9A20F5FFB1814D81B4E0E62E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				09EB0438A53D4726B07942BA /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.cpp */,
+				8CB703A89CE04A9B8EFDFF52 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture_test.cpp */,
+				190C07CB45D34BF1BCE64906 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		891C9A80D0E843BE8F478FA9 /* collatz-conjecture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3829EEE00E814B83B558F15B /* Build configuration list for PBXNativeTarget "collatz-conjecture" */;
+			buildPhases = (
+				DC8D0D2E22194738A8E2CCEA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A26AD7D57C3452DB9DEDCEB /* PBXTargetDependency */,
+			);
+			name = "collatz-conjecture";
+			productName = "collatz-conjecture";
+			productReference = E4E6040BEB3042D48D224EDE /* collatz-conjecture */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		379E9F306D624707AD8E8595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = D1896EE869224E2C9F3F02D0 /* Build configuration list for PBXProject "collatz-conjecture" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9DE6F71784364A95B31508A0 /* Debug */,
+				45D6B19DA2BB4EF0826A8384 /* Release */,
+				CA64C0755EFB4667AFEDECB8 /* MinSizeRel */,
+				42BFFB536B854233BFB0633A /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 63EC6DF29A724919A87C9C9C;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				E088AEDDC1414B63A9E918D4 /* ALL_BUILD */,
+				AC660829712B424F8EFFFD88 /* ZERO_CHECK */,
+				891C9A80D0E843BE8F478FA9 /* collatz-conjecture */,
+				4EA67C88EB6340CF9F0D02AA /* test_collatz-conjecture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D67048430784ED58CE30D1E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build -f /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/CMakeScripts/test_collatz-conjecture_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		44AB96B6D15C41449CFD29C1 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		49B82ADA45784288BCD1A86D = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		49EC7BB9028048F0824FC430 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8FE3F8B9C36046B19C58841B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build -f /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		ABA96EFF2F4E48C388C62A25 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build -f /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC8D0D2E22194738A8E2CCEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0148F0ACB4C47F4B212858D /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture.cpp */,
+				820FCD49D0C84B5C93090B11 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/collatz_conjecture_test.cpp */,
+				944EA26E01B64944ADB6E2C5 /* /Users/viraltaco/code/Exercism/cpp/collatz-conjecture/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07402EC4C894456EBDE53431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC660829712B424F8EFFFD88 /* ZERO_CHECK */;
+			targetProxy = AD6FFF1FC83349E1ADDC7797 /* PBXContainerItemProxy */;
+		};
+		1BF5FCE86A4041BBAA5DFFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891C9A80D0E843BE8F478FA9 /* collatz-conjecture */;
+			targetProxy = 88014B01AF674976B1C8B2EF /* PBXContainerItemProxy */;
+		};
+		4532E61F789F41169A02729C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC660829712B424F8EFFFD88 /* ZERO_CHECK */;
+			targetProxy = 4B2184448AE2411BBD76B966 /* PBXContainerItemProxy */;
+		};
+		7A26AD7D57C3452DB9DEDCEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC660829712B424F8EFFFD88 /* ZERO_CHECK */;
+			targetProxy = 830D71DBF15D4A14A569B87D /* PBXContainerItemProxy */;
+		};
+		7EAA30E6DB604222B3ABAAAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 891C9A80D0E843BE8F478FA9 /* collatz-conjecture */;
+			targetProxy = 1C4ECDEBD64745A5A9E89BBE /* PBXContainerItemProxy */;
+		};
+		84204748D75848E8AE7BA1C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4EA67C88EB6340CF9F0D02AA /* test_collatz-conjecture */;
+			targetProxy = ECB4301E723D416980DAC33C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01BCDC2A8E7C4D7EB7DECA62 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		084D52B07A01416EACB8C88F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		0C3FABAC22F547319DDC67C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/build";
+			};
+			name = MinSizeRel;
+		};
+		1C6589C592884BE5AC057074 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2DD308514461444FAB7F8A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		38D5C0A6C91343538ECCFDF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4E8EC3A87CEF49018F2BEEE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		6436B15A9E7F4DC49FFA76E2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		72457043D9C947D1BEC7C293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7B2C0AEBBFA54593B8A713A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		8988FB204EDF41ED99DB7747 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		9A917000B11D43A3932B7961 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A5EBC61915024DC5BD4CE209 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A76180AD5B3F443994B9E42A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		B65311C8A92D425EB7ED86C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/build";
+			};
+			name = Debug;
+		};
+		BC6F6C947AAE4BE4A72F25F0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C41DEF7B5235429DB7BF6D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/build";
+			};
+			name = Release;
+		};
+		D5C7A953E1EA4FED945A2EEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D74CBDF4C9AA46B1A8D141E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F59C7C9521824CE4B4BE3409 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_collatz-conjecture";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3829EEE00E814B83B558F15B /* Build configuration list for PBXNativeTarget "collatz-conjecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A917000B11D43A3932B7961 /* Debug */,
+				D74CBDF4C9AA46B1A8D141E5 /* Release */,
+				A76180AD5B3F443994B9E42A /* MinSizeRel */,
+				BC6F6C947AAE4BE4A72F25F0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49FEC8FF122540DB87FB3BC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD308514461444FAB7F8A8B /* Debug */,
+				7B2C0AEBBFA54593B8A713A3 /* Release */,
+				1C6589C592884BE5AC057074 /* MinSizeRel */,
+				01BCDC2A8E7C4D7EB7DECA62 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60547CECA9464037A8102A25 /* Build configuration list for PBXAggregateTarget "test_collatz-conjecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59C7C9521824CE4B4BE3409 /* Debug */,
+				D5C7A953E1EA4FED945A2EEA /* Release */,
+				6436B15A9E7F4DC49FFA76E2 /* MinSizeRel */,
+				084D52B07A01416EACB8C88F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CAD86CF55B4C4276BB21F58F /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72457043D9C947D1BEC7C293 /* Debug */,
+				4E8EC3A87CEF49018F2BEEE4 /* Release */,
+				A5EBC61915024DC5BD4CE209 /* MinSizeRel */,
+				38D5C0A6C91343538ECCFDF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1896EE869224E2C9F3F02D0 /* Build configuration list for PBXProject "collatz-conjecture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65311C8A92D425EB7ED86C2 /* Debug */,
+				C41DEF7B5235429DB7BF6D7E /* Release */,
+				0C3FABAC22F547319DDC67C4 /* MinSizeRel */,
+				8988FB204EDF41ED99DB7747 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 379E9F306D624707AD8E8595 /* Project object */;
+}

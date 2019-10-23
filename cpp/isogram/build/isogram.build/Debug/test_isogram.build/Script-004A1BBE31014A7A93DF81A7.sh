@@ -1,0 +1,2 @@
+#!/bin/sh
+make -C /Users/viraltaco/Desktop/projects/code/Exercism/cpp/isogram/build -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/isogram/build/CMakeScripts/test_isogram_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename "$OBJECT_FILE_DIR_normal") all

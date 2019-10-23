@@ -1,0 +1,4 @@
+/Users/viraltaco/code/code/Exercism/cpp/anagram/build/CMakeFiles/test_anagram.dir
+/Users/viraltaco/code/code/Exercism/cpp/anagram/build/CMakeFiles/anagram.dir
+/Users/viraltaco/code/code/Exercism/cpp/anagram/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/code/Exercism/cpp/anagram/build/CMakeFiles/ZERO_CHECK.dir

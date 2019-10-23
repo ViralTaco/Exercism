@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/luhn/build/CMakeFiles/test_luhn.dir
+/Users/viraltaco/code/Exercism/cpp/luhn/build/CMakeFiles/luhn.dir
+/Users/viraltaco/code/Exercism/cpp/luhn/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/luhn/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		193B0A3D16BD4616984C39E8 /* test_armstrong-numbers */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4004779BC5E746AC99F89E7B /* Build configuration list for PBXAggregateTarget "test_armstrong-numbers" */;
+			buildPhases = (
+				7E66008C2EEA4D5A93620779 /* CMake Rules */,
+			);
+			dependencies = (
+				356F59DCB92742A791080005 /* PBXTargetDependency */,
+				4D6F31CC01514D9CB5A954B3 /* PBXTargetDependency */,
+			);
+			name = "test_armstrong-numbers";
+			productName = "test_armstrong-numbers";
+		};
+		604EB8DDDA27473CA6DF5126 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F5BD32AF0FDF441E820FA301 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				488398EA064D410EB4C5617E /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E576B6B106DA45D6B2F9CC1A /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 78D779D36B2F4D3191EE0834 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				D8C1BA400FB4466A847E2289 /* CMake Rules */,
+			);
+			dependencies = (
+				1E3E4AC5D03241BBAA23D208 /* PBXTargetDependency */,
+				837FC877150D45CD9C68DD7F /* PBXTargetDependency */,
+				B54477DDA2A54F5880198D73 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3F4047F63C2E4399B074EDF3 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C8CBB3D70D134CF7BDEFA0FA /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */; };
+		49BFA66890BA422D99D064D9 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 5D7A6D5FC0034ECE8BAC1090 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/test/tests-main.cpp */; };
+		5E4BA4FD52DC4966B15C5DCB /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.cpp */ = {isa = PBXBuildFile; fileRef = 8E64EE48E5A243099C0C309C /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.cpp */; };
+		B7C36BB3975F43B5A14857E3 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers_test.cpp */ = {isa = PBXBuildFile; fileRef = C2BEA620F5284D42802BF4D0 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers_test.cpp */; };
+		EB382476732249A19CD1C659 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.h */ = {isa = PBXBuildFile; fileRef = B6FB098AC44746A9A46CE141 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1FE5F5030D4F4353B4336B6E /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		3B13C555D5BC4BB5A78A7A3E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		689EF4F06D634F9D9F4DA817 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		8D3FE09290264ABAB7025A13 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1779377C0DD94357A57F6ECE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9814EBBCAF42E8885FA3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604EB8DDDA27473CA6DF5126;
+			remoteInfo = ZERO_CHECK;
+		};
+		3FD65612A60849D7BA08C887 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9814EBBCAF42E8885FA3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B42751BAFF44ADB2A407F5;
+			remoteInfo = "armstrong-numbers";
+		};
+		54092DA4E48A41AD9F38C23D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9814EBBCAF42E8885FA3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 193B0A3D16BD4616984C39E8;
+			remoteInfo = "test_armstrong-numbers";
+		};
+		74B4C1A60631405F8143801D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9814EBBCAF42E8885FA3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604EB8DDDA27473CA6DF5126;
+			remoteInfo = ZERO_CHECK;
+		};
+		7645D02D57A844DDA479987E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9814EBBCAF42E8885FA3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 604EB8DDDA27473CA6DF5126;
+			remoteInfo = ZERO_CHECK;
+		};
+		85B597010DA44964A8C2AE41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7A9814EBBCAF42E8885FA3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B42751BAFF44ADB2A407F5;
+			remoteInfo = "armstrong-numbers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17C13B8F444F4EBEA88EE291 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		5D7A6D5FC0034ECE8BAC1090 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		63FE6D201D2C461691DC9A15 /* armstrong-numbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "armstrong-numbers"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E64EE48E5A243099C0C309C /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = armstrong_numbers.cpp; path = armstrong_numbers.cpp; sourceTree = SOURCE_ROOT; };
+		B6FB098AC44746A9A46CE141 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = armstrong_numbers.h; path = armstrong_numbers.h; sourceTree = SOURCE_ROOT; };
+		C2BEA620F5284D42802BF4D0 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = armstrong_numbers_test.cpp; path = armstrong_numbers_test.cpp; sourceTree = SOURCE_ROOT; };
+		C8CBB3D70D134CF7BDEFA0FA /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FFA6AE49FB3E4275A1CD458B /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		164F19D3F56043D5A97D0746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63FE6D201D2C461691DC9A15 /* armstrong-numbers */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29240107BC374B8EB671AF2F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		2C8250D7E1C74FF8A5E992A1 = {
+			isa = PBXGroup;
+			children = (
+				C0C81C759F094170BF4E9789 /* test_armstrong-numbers */,
+				51419F27EB6F4909A81AD2D4 /* armstrong-numbers */,
+				47FA31DA6E744592A08132E7 /* ALL_BUILD */,
+				164F19D3F56043D5A97D0746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47FA31DA6E744592A08132E7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				7A239F49EE154F229F906000 /* CMake Rules */,
+				17C13B8F444F4EBEA88EE291 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		51419F27EB6F4909A81AD2D4 /* armstrong-numbers */ = {
+			isa = PBXGroup;
+			children = (
+				AB63607B78B749EBBA2A1D28 /* Source Files */,
+				F700A6B905444258A513D042 /* Header Files */,
+				C8CBB3D70D134CF7BDEFA0FA /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */,
+			);
+			name = "armstrong-numbers";
+			sourceTree = "<group>";
+		};
+		7A239F49EE154F229F906000 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		AB63607B78B749EBBA2A1D28 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E64EE48E5A243099C0C309C /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.cpp */,
+				C2BEA620F5284D42802BF4D0 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers_test.cpp */,
+				5D7A6D5FC0034ECE8BAC1090 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		C0C81C759F094170BF4E9789 /* test_armstrong-numbers */ = {
+			isa = PBXGroup;
+			children = (
+				29240107BC374B8EB671AF2F /* CMake Rules */,
+				FFA6AE49FB3E4275A1CD458B /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/CMakeLists.txt */,
+			);
+			name = "test_armstrong-numbers";
+			sourceTree = "<group>";
+		};
+		F700A6B905444258A513D042 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6FB098AC44746A9A46CE141 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B42751BAFF44ADB2A407F5 /* armstrong-numbers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD87E0413B146E9A4498049 /* Build configuration list for PBXNativeTarget "armstrong-numbers" */;
+			buildPhases = (
+				F9026A14FCA742F4B1EC65BB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A27567668A374D5EB0956B54 /* PBXTargetDependency */,
+			);
+			name = "armstrong-numbers";
+			productName = "armstrong-numbers";
+			productReference = 63FE6D201D2C461691DC9A15 /* armstrong-numbers */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A9814EBBCAF42E8885FA3D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 21D1E3825EC8498D991785F0 /* Build configuration list for PBXProject "armstrong-numbers" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				8D3FE09290264ABAB7025A13 /* Debug */,
+				1FE5F5030D4F4353B4336B6E /* Release */,
+				689EF4F06D634F9D9F4DA817 /* MinSizeRel */,
+				3B13C555D5BC4BB5A78A7A3E /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2C8250D7E1C74FF8A5E992A1;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				E576B6B106DA45D6B2F9CC1A /* ALL_BUILD */,
+				604EB8DDDA27473CA6DF5126 /* ZERO_CHECK */,
+				43B42751BAFF44ADB2A407F5 /* armstrong-numbers */,
+				193B0A3D16BD4616984C39E8 /* test_armstrong-numbers */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		488398EA064D410EB4C5617E /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build -f /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		7E66008C2EEA4D5A93620779 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build -f /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build/CMakeScripts/test_armstrong-numbers_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		AE6E3EAA77B844869E761346 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CE557F1C7CC14BD6BDE51CC6 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D68DB29481DC40DBB643728C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D8C1BA400FB4466A847E2289 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build -f /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9026A14FCA742F4B1EC65BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E4BA4FD52DC4966B15C5DCB /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers.cpp */,
+				B7C36BB3975F43B5A14857E3 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/armstrong_numbers_test.cpp */,
+				49BFA66890BA422D99D064D9 /* /Users/viraltaco/code/Exercism/cpp/armstrong-numbers/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E3E4AC5D03241BBAA23D208 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B42751BAFF44ADB2A407F5 /* armstrong-numbers */;
+			targetProxy = 3FD65612A60849D7BA08C887 /* PBXContainerItemProxy */;
+		};
+		356F59DCB92742A791080005 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B42751BAFF44ADB2A407F5 /* armstrong-numbers */;
+			targetProxy = 85B597010DA44964A8C2AE41 /* PBXContainerItemProxy */;
+		};
+		4D6F31CC01514D9CB5A954B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604EB8DDDA27473CA6DF5126 /* ZERO_CHECK */;
+			targetProxy = 74B4C1A60631405F8143801D /* PBXContainerItemProxy */;
+		};
+		837FC877150D45CD9C68DD7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604EB8DDDA27473CA6DF5126 /* ZERO_CHECK */;
+			targetProxy = 1779377C0DD94357A57F6ECE /* PBXContainerItemProxy */;
+		};
+		A27567668A374D5EB0956B54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 604EB8DDDA27473CA6DF5126 /* ZERO_CHECK */;
+			targetProxy = 7645D02D57A844DDA479987E /* PBXContainerItemProxy */;
+		};
+		B54477DDA2A54F5880198D73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 193B0A3D16BD4616984C39E8 /* test_armstrong-numbers */;
+			targetProxy = 54092DA4E48A41AD9F38C23D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		068379EDC7434FE090B21C91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		160DDF7783584E40A2BF2834 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		35613F5FB5AD4EAEB26D2318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build/build";
+			};
+			name = Release;
+		};
+		497E6D022D6B4BEDA19517DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		4999CFADC1DF4741BE74BBB0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build/build";
+			};
+			name = MinSizeRel;
+		};
+		5996B42EC13841F9A28614A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6C90DA9616234377BC11CF32 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6EA149FFCDE34D2B816397D0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7199CC312CB54EC5A7DE33A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		780BDC5D56484A5599AB3DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7907E9D01DF74C5BA0BC0F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		96FFE79806BB47CDB2A53175 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A6E1B1519F954A09A624FB88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C6044A78C0C24FDEABD283AD /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CA80C70A7F4B4A2FB5359CBA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D0D6652B21D44C769897FAF6 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D7EDF0B42AD24B579CAC5B03 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		ECCCCB55687B423DB2EBBEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build/build";
+			};
+			name = Debug;
+		};
+		F851C7B1382A44ACAB9DD921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "armstrong-numbers";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FB54E176F304460BBAA70C7D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/armstrong-numbers/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D1E3825EC8498D991785F0 /* Build configuration list for PBXProject "armstrong-numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCCCB55687B423DB2EBBEAB /* Debug */,
+				35613F5FB5AD4EAEB26D2318 /* Release */,
+				4999CFADC1DF4741BE74BBB0 /* MinSizeRel */,
+				FB54E176F304460BBAA70C7D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4004779BC5E746AC99F89E7B /* Build configuration list for PBXAggregateTarget "test_armstrong-numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96FFE79806BB47CDB2A53175 /* Debug */,
+				7907E9D01DF74C5BA0BC0F6C /* Release */,
+				D7EDF0B42AD24B579CAC5B03 /* MinSizeRel */,
+				6EA149FFCDE34D2B816397D0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		78D779D36B2F4D3191EE0834 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				068379EDC7434FE090B21C91 /* Debug */,
+				A6E1B1519F954A09A624FB88 /* Release */,
+				D0D6652B21D44C769897FAF6 /* MinSizeRel */,
+				160DDF7783584E40A2BF2834 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F5BD32AF0FDF441E820FA301 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7199CC312CB54EC5A7DE33A8 /* Debug */,
+				780BDC5D56484A5599AB3DB0 /* Release */,
+				6C90DA9616234377BC11CF32 /* MinSizeRel */,
+				CA80C70A7F4B4A2FB5359CBA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FAD87E0413B146E9A4498049 /* Build configuration list for PBXNativeTarget "armstrong-numbers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F851C7B1382A44ACAB9DD921 /* Debug */,
+				497E6D022D6B4BEDA19517DC /* Release */,
+				5996B42EC13841F9A28614A7 /* MinSizeRel */,
+				C6044A78C0C24FDEABD283AD /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A9814EBBCAF42E8885FA3D2 /* Project object */;
+}

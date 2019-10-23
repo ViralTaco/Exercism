@@ -1,0 +1,14 @@
+/Users/viraltaco/code/Exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.csprojAssemblyReference.cache
+/Users/viraltaco/code/Exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.csproj.CoreCompileInputs.cache
+/Users/viraltaco/code/Exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.AssemblyInfoInputs.cache
+/Users/viraltaco/code/Exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.AssemblyInfo.cs
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.deps.json
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.runtimeconfig.json
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.runtimeconfig.dev.json
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.dll
+/Users/viraltaco/code/Exercism/csharp/gigasecond/bin/Debug/netcoreapp2.1/Gigasecond.pdb
+/Users/viraltaco/code/Exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.dll
+/Users/viraltaco/code/Exercism/csharp/gigasecond/obj/Debug/netcoreapp2.1/Gigasecond.pdb

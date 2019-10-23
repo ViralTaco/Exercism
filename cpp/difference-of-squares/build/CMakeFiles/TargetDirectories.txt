@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/difference-of-squares/build/CMakeFiles/test_difference-of-squares.dir
+/Users/viraltaco/code/Exercism/cpp/difference-of-squares/build/CMakeFiles/difference-of-squares.dir
+/Users/viraltaco/code/Exercism/cpp/difference-of-squares/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/difference-of-squares/build/CMakeFiles/ZERO_CHECK.dir

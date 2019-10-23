@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/CMakeFiles/test_collatz-conjecture.dir
+/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/CMakeFiles/collatz-conjecture.dir
+/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/collatz-conjecture/build/CMakeFiles/ZERO_CHECK.dir

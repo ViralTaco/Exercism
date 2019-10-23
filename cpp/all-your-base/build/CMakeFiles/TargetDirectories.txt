@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/all-your-base/build/CMakeFiles/test_all-your-base.dir
+/Users/viraltaco/code/Exercism/cpp/all-your-base/build/CMakeFiles/all-your-base.dir
+/Users/viraltaco/code/Exercism/cpp/all-your-base/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/all-your-base/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,28 @@
+Compiled from "Twofer.java"
+public class Twofer {
+  public Twofer();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public java.lang.String twofer(java.lang.String);
+    Code:
+       0: ldc           #2                  // String One for %s, one for me.
+       2: iconst_1
+       3: anewarray     #3                  // class java/lang/Object
+       6: dup
+       7: iconst_0
+       8: aload_1
+       9: ifnull        21
+      12: aload_1
+      13: ldc           #4                  // String
+      15: invokevirtual #5                  // Method java/lang/String.equals:(Ljava/lang/Object;)Z
+      18: ifeq          26
+      21: ldc           #6                  // String you
+      23: goto          27
+      26: aload_1
+      27: aastore
+      28: invokestatic  #7                  // Method java/lang/String.format:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+      31: areturn
+}

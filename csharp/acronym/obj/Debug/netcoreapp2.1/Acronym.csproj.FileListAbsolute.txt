@@ -1,0 +1,14 @@
+/Users/viraltaco/code/Exercism/csharp/acronym/obj/Debug/netcoreapp2.1/Acronym.csprojAssemblyReference.cache
+/Users/viraltaco/code/Exercism/csharp/acronym/obj/Debug/netcoreapp2.1/Acronym.csproj.CoreCompileInputs.cache
+/Users/viraltaco/code/Exercism/csharp/acronym/obj/Debug/netcoreapp2.1/Acronym.AssemblyInfoInputs.cache
+/Users/viraltaco/code/Exercism/csharp/acronym/obj/Debug/netcoreapp2.1/Acronym.AssemblyInfo.cs
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/xunit.runner.reporters.netcoreapp10.dll
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/xunit.runner.utility.netcoreapp10.dll
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/Acronym.deps.json
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/Acronym.runtimeconfig.json
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/Acronym.runtimeconfig.dev.json
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/Acronym.dll
+/Users/viraltaco/code/Exercism/csharp/acronym/bin/Debug/netcoreapp2.1/Acronym.pdb
+/Users/viraltaco/code/Exercism/csharp/acronym/obj/Debug/netcoreapp2.1/Acronym.dll
+/Users/viraltaco/code/Exercism/csharp/acronym/obj/Debug/netcoreapp2.1/Acronym.pdb

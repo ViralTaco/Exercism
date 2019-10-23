@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/etl/build/CMakeFiles/test_etl.dir
+/Users/viraltaco/code/Exercism/cpp/etl/build/CMakeFiles/etl.dir
+/Users/viraltaco/code/Exercism/cpp/etl/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/etl/build/CMakeFiles/ZERO_CHECK.dir

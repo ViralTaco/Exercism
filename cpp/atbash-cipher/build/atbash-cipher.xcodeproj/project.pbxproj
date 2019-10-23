@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		30B565224BE24C29A05AE3BF /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1DA1D55145864BE5980B7597 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				10DEA0630BE841D3BAADA59D /* CMake Rules */,
+			);
+			dependencies = (
+				2E47BA40BD4A43E5BD2CFDA3 /* PBXTargetDependency */,
+				9D178DDC17254FC897A6E5FF /* PBXTargetDependency */,
+				C60FB7CC456C4DF284C6F9FB /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		D1ACFD0517AE439EB50E4B7A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 1D3F909CD49B4C72890AE61C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				05598B64F98A4F51BFEDE3C8 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		E333CB7AE25A465886210F87 /* test_atbash-cipher */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8FDC22877C5F45AF94301146 /* Build configuration list for PBXAggregateTarget "test_atbash-cipher" */;
+			buildPhases = (
+				2C680B1F78684A348C3180A1 /* CMake Rules */,
+			);
+			dependencies = (
+				CF935826266D43F28E76E179 /* PBXTargetDependency */,
+				A6DAB0E1EBA840179C8B01D0 /* PBXTargetDependency */,
+			);
+			name = "test_atbash-cipher";
+			productName = "test_atbash-cipher";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		32A3532D4BD3435083F6735B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher_test.cpp */ = {isa = PBXBuildFile; fileRef = 805FCB9304B647BE9F69A41B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher_test.cpp */; };
+		4BDFBD4CE17849B2A3268D4B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 12B2E305F9FC41E0961AB67E /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */; };
+		EE7F37A260D54A89AE17B0A4 /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher.h */ = {isa = PBXBuildFile; fileRef = 35D4E0E7088E4C05A7092488 /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		363828F7DCDE4AE8B5469F9A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5F9CEE5577114EC9ACE1C2C5 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		7705B8804C4A410E9269E919 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		AC9782DC61D544B0B939A7F1 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		01F6BDC9F4B040BDA2AEDC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF8810CA284442A9592F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6D1684E25D4E7BBBDD91EB;
+			remoteInfo = "atbash-cipher";
+		};
+		0F39C49B521940DB9A3D046E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF8810CA284442A9592F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ACFD0517AE439EB50E4B7A;
+			remoteInfo = ZERO_CHECK;
+		};
+		15CA7BF8965949F487C7F747 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF8810CA284442A9592F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB6D1684E25D4E7BBBDD91EB;
+			remoteInfo = "atbash-cipher";
+		};
+		240C16BAC35745FFA7FDB369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF8810CA284442A9592F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E333CB7AE25A465886210F87;
+			remoteInfo = "test_atbash-cipher";
+		};
+		6239556DE8424B539FE4D4D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF8810CA284442A9592F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ACFD0517AE439EB50E4B7A;
+			remoteInfo = ZERO_CHECK;
+		};
+		B93F22585FE641298A200AD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CBF8810CA284442A9592F40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1ACFD0517AE439EB50E4B7A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12B2E305F9FC41E0961AB67E /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		27DBC9C81A1A4DF3939B3047 /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		2D72C6134FA141E58647B1D7 /* atbash-cipher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "atbash-cipher"; sourceTree = BUILT_PRODUCTS_DIR; };
+		305AE4A9148042C09D3D961B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		35D4E0E7088E4C05A7092488 /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = atbash_cipher.h; path = atbash_cipher.h; sourceTree = SOURCE_ROOT; };
+		805FCB9304B647BE9F69A41B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = atbash_cipher_test.cpp; path = atbash_cipher_test.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		053311CF3328412F9F9E4B92 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				35D4E0E7088E4C05A7092488 /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		35AE641193A24335A2173558 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D72C6134FA141E58647B1D7 /* atbash-cipher */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE824FB67FC4E2D8E13790B /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CC14782BD6044ADBAA1CE523 /* CMake Rules */,
+				305AE4A9148042C09D3D961B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5560A0A0EA4B49DEAEFA7D80 /* test_atbash-cipher */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAEE5F0D3641C6BD43BA6A /* CMake Rules */,
+				27DBC9C81A1A4DF3939B3047 /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */,
+			);
+			name = "test_atbash-cipher";
+			sourceTree = "<group>";
+		};
+		60BC60F3F71840EC97F3C48D /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				805FCB9304B647BE9F69A41B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		88199B8C9BCA411B9DE31640 /* atbash-cipher */ = {
+			isa = PBXGroup;
+			children = (
+				60BC60F3F71840EC97F3C48D /* Source Files */,
+				053311CF3328412F9F9E4B92 /* Header Files */,
+				12B2E305F9FC41E0961AB67E /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/CMakeLists.txt */,
+			);
+			name = "atbash-cipher";
+			sourceTree = "<group>";
+		};
+		B7A8B91C5F2D464C8C7B57AB = {
+			isa = PBXGroup;
+			children = (
+				5560A0A0EA4B49DEAEFA7D80 /* test_atbash-cipher */,
+				88199B8C9BCA411B9DE31640 /* atbash-cipher */,
+				3AE824FB67FC4E2D8E13790B /* ALL_BUILD */,
+				35AE641193A24335A2173558 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC14782BD6044ADBAA1CE523 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E0BAEE5F0D3641C6BD43BA6A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB6D1684E25D4E7BBBDD91EB /* atbash-cipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15AE9F10BE6E45A5A3CCDFAC /* Build configuration list for PBXNativeTarget "atbash-cipher" */;
+			buildPhases = (
+				02E1D141C9904F05A9EF4603 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C56C548613B5486F858F4B40 /* PBXTargetDependency */,
+			);
+			name = "atbash-cipher";
+			productName = "atbash-cipher";
+			productReference = 2D72C6134FA141E58647B1D7 /* atbash-cipher */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CBF8810CA284442A9592F40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1010;
+			};
+			buildConfigurationList = 1C8096D7A5E344C39570B58F /* Build configuration list for PBXProject "atbash-cipher" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				AC9782DC61D544B0B939A7F1 /* Debug */,
+				363828F7DCDE4AE8B5469F9A /* Release */,
+				5F9CEE5577114EC9ACE1C2C5 /* MinSizeRel */,
+				7705B8804C4A410E9269E919 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = B7A8B91C5F2D464C8C7B57AB;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				30B565224BE24C29A05AE3BF /* ALL_BUILD */,
+				D1ACFD0517AE439EB50E4B7A /* ZERO_CHECK */,
+				AB6D1684E25D4E7BBBDD91EB /* atbash-cipher */,
+				E333CB7AE25A465886210F87 /* test_atbash-cipher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05598B64F98A4F51BFEDE3C8 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/atbash-cipher/build -f /Users/viraltaco/code/Exercism/cpp/atbash-cipher/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		10DEA0630BE841D3BAADA59D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/atbash-cipher/build -f /Users/viraltaco/code/Exercism/cpp/atbash-cipher/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		2C680B1F78684A348C3180A1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/atbash-cipher/build -f /Users/viraltaco/code/Exercism/cpp/atbash-cipher/build/CMakeScripts/test_atbash-cipher_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B212495F972C4990AF91C66B = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		C1D04673F41D4696A34C4818 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		D63FE6E6F25246A7AAD28368 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02E1D141C9904F05A9EF4603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32A3532D4BD3435083F6735B /* /Users/viraltaco/code/Exercism/cpp/atbash-cipher/atbash_cipher_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2E47BA40BD4A43E5BD2CFDA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E333CB7AE25A465886210F87 /* test_atbash-cipher */;
+			targetProxy = 240C16BAC35745FFA7FDB369 /* PBXContainerItemProxy */;
+		};
+		9D178DDC17254FC897A6E5FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6D1684E25D4E7BBBDD91EB /* atbash-cipher */;
+			targetProxy = 15CA7BF8965949F487C7F747 /* PBXContainerItemProxy */;
+		};
+		A6DAB0E1EBA840179C8B01D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ACFD0517AE439EB50E4B7A /* ZERO_CHECK */;
+			targetProxy = B93F22585FE641298A200AD9 /* PBXContainerItemProxy */;
+		};
+		C56C548613B5486F858F4B40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ACFD0517AE439EB50E4B7A /* ZERO_CHECK */;
+			targetProxy = 6239556DE8424B539FE4D4D4 /* PBXContainerItemProxy */;
+		};
+		C60FB7CC456C4DF284C6F9FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D1ACFD0517AE439EB50E4B7A /* ZERO_CHECK */;
+			targetProxy = 0F39C49B521940DB9A3D046E /* PBXContainerItemProxy */;
+		};
+		CF935826266D43F28E76E179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB6D1684E25D4E7BBBDD91EB /* atbash-cipher */;
+			targetProxy = 01F6BDC9F4B040BDA2AEDC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		003CE40D476342F1916726F8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		09FC14565D4F4556AA0E560F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		0D39F095E051450BADC1E687 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build/build";
+			};
+			name = MinSizeRel;
+		};
+		13903CD3040248EC95B99100 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		1D99147B1EAB424DB38EDEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		28329CF64E54427DA1C02815 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		307770D9C415484DAE214E19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		34D62A99D3894C0C8A19B12A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build/build";
+			};
+			name = Release;
+		};
+		3B8BAE8751634F5E9B74E25A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		44FA15EB47594E94ADB53D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		55883171D7B74B009B089623 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		590DA3D8A6C1440692368C21 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5A202D3016E84689B0D989A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build/build";
+			};
+			name = Debug;
+		};
+		84A45FE29E544CB5A96EDE18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8AF3E2C0E8184FC1A9DBED55 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		A05469B62424407F8793966D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++11'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libboost_unit_test_framework-mt.a /usr/local/lib/libboost_date_time-mt.a /usr/local/lib/libboost_regex-mt.a";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				SYSTEM_HEADER_SEARCH_PATHS = (/usr/local/include);
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A6219B624D1847239A56388E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BFD49AA7F4DF421B92BDBE63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		D3333DBD089A4AB3A2B00724 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_atbash-cipher";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F51A05559BEE41069B388910 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/atbash-cipher/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15AE9F10BE6E45A5A3CCDFAC /* Build configuration list for PBXNativeTarget "atbash-cipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307770D9C415484DAE214E19 /* Debug */,
+				A05469B62424407F8793966D /* Release */,
+				8AF3E2C0E8184FC1A9DBED55 /* MinSizeRel */,
+				28329CF64E54427DA1C02815 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1C8096D7A5E344C39570B58F /* Build configuration list for PBXProject "atbash-cipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A202D3016E84689B0D989A1 /* Debug */,
+				34D62A99D3894C0C8A19B12A /* Release */,
+				0D39F095E051450BADC1E687 /* MinSizeRel */,
+				F51A05559BEE41069B388910 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1D3F909CD49B4C72890AE61C /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84A45FE29E544CB5A96EDE18 /* Debug */,
+				1D99147B1EAB424DB38EDEB2 /* Release */,
+				3B8BAE8751634F5E9B74E25A /* MinSizeRel */,
+				55883171D7B74B009B089623 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1DA1D55145864BE5980B7597 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44FA15EB47594E94ADB53D7B /* Debug */,
+				A6219B624D1847239A56388E /* Release */,
+				003CE40D476342F1916726F8 /* MinSizeRel */,
+				13903CD3040248EC95B99100 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FDC22877C5F45AF94301146 /* Build configuration list for PBXAggregateTarget "test_atbash-cipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD49AA7F4DF421B92BDBE63 /* Debug */,
+				D3333DBD089A4AB3A2B00724 /* Release */,
+				09FC14565D4F4556AA0E560F /* MinSizeRel */,
+				590DA3D8A6C1440692368C21 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CBF8810CA284442A9592F40 /* Project object */;
+}

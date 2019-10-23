@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		17D0E06239164861B3504480 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FCF54E4DE1C4496780EDAE30 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5E9CAD0B822C424A82C48E2B /* CMake Rules */,
+			);
+			dependencies = (
+				11191333D34F464885B1DB72 /* PBXTargetDependency */,
+				A91BF66D68B245FFB070668D /* PBXTargetDependency */,
+				AB72AB0247F14094B9268881 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		DC90EF0D73CA4B2EB0578C53 /* test_binary-search */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = ABC9AB3BF0124A098167751C /* Build configuration list for PBXAggregateTarget "test_binary-search" */;
+			buildPhases = (
+				368B6113F45E42E7B6DF92EE /* CMake Rules */,
+			);
+			dependencies = (
+				AC8969BC66374699A0A8EAA7 /* PBXTargetDependency */,
+				4881F1A16EB34838AE719F43 /* PBXTargetDependency */,
+			);
+			name = "test_binary-search";
+			productName = "test_binary-search";
+		};
+		E3FBC4AB0FBE4A2EB613087D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 79402CFF63064680B1493D45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				B786DAE59B0E4AD49F121AF6 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2930F919048246D8A88947A5 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.h */ = {isa = PBXBuildFile; fileRef = EA6FE963C7F54DF8A51532CE /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.h */; };
+		3C8EFB6695194694A39E5526 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.cpp */ = {isa = PBXBuildFile; fileRef = 6B4AE21EE17E4013B75A582C /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.cpp */; };
+		40633FBA41A8415C8EC4704B /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search_test.cpp */ = {isa = PBXBuildFile; fileRef = 4197448351A745E196DD2639 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search_test.cpp */; };
+		7BC6A798CD81483885A3B3F1 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 9ACACA6AFF0C4BB19802A3F7 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/test/tests-main.cpp */; };
+		D1B759137B394597B59EDFF2 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A63ABBE5E3B14A3A8A595E14 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		587EB4D0ADF94B0198197772 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		81FCF37D91B74CD7B5846E20 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BB48933BD0394CC0BE9ED922 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		DF26B62DC00746C18EB7733A /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		4718F5BC89AF48A7B9C46F80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1A2D74F7924289B655FD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C96E90D0B345A4ACFF6EF7;
+			remoteInfo = "binary-search";
+		};
+		4DD7CCDEE1C34DE1A38874D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1A2D74F7924289B655FD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC90EF0D73CA4B2EB0578C53;
+			remoteInfo = "test_binary-search";
+		};
+		605CF276A6B345FBB3EB7D78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1A2D74F7924289B655FD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FBC4AB0FBE4A2EB613087D;
+			remoteInfo = ZERO_CHECK;
+		};
+		74C7190DF5764BB4AF977629 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1A2D74F7924289B655FD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FBC4AB0FBE4A2EB613087D;
+			remoteInfo = ZERO_CHECK;
+		};
+		7C6720954ED9428DAD3CF11B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1A2D74F7924289B655FD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8C96E90D0B345A4ACFF6EF7;
+			remoteInfo = "binary-search";
+		};
+		94015CECEEC24EADB3580D4C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D1A2D74F7924289B655FD52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3FBC4AB0FBE4A2EB613087D;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3335280E87F64161A4A3501A /* binary-search */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "binary-search"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4197448351A745E196DD2639 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = binary_search_test.cpp; path = binary_search_test.cpp; sourceTree = SOURCE_ROOT; };
+		51E86FDE337A401AA45D4785 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6B4AE21EE17E4013B75A582C /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = binary_search.cpp; path = binary_search.cpp; sourceTree = SOURCE_ROOT; };
+		9ACACA6AFF0C4BB19802A3F7 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		A63ABBE5E3B14A3A8A595E14 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B4B67F0B0DB74EE3A04B6990 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EA6FE963C7F54DF8A51532CE /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = binary_search.h; path = binary_search.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		4343D5B20220459597F398C1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		44330344415B4E61948C87C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3335280E87F64161A4A3501A /* binary-search */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76AABD4624F64EBEA47A108B /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		7B073976979741C5A71228B9 /* test_binary-search */ = {
+			isa = PBXGroup;
+			children = (
+				4343D5B20220459597F398C1 /* CMake Rules */,
+				B4B67F0B0DB74EE3A04B6990 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */,
+			);
+			name = "test_binary-search";
+			sourceTree = "<group>";
+		};
+		862445D5C5524CE6944396A8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B4AE21EE17E4013B75A582C /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.cpp */,
+				4197448351A745E196DD2639 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search_test.cpp */,
+				9ACACA6AFF0C4BB19802A3F7 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		8C0D031C74734AA5A86CA17A /* binary-search */ = {
+			isa = PBXGroup;
+			children = (
+				862445D5C5524CE6944396A8 /* Source Files */,
+				D4D2058883FD4EE1B946F07C /* Header Files */,
+				A63ABBE5E3B14A3A8A595E14 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */,
+			);
+			name = "binary-search";
+			sourceTree = "<group>";
+		};
+		C26C0BEFA1814B708C0729CB = {
+			isa = PBXGroup;
+			children = (
+				7B073976979741C5A71228B9 /* test_binary-search */,
+				8C0D031C74734AA5A86CA17A /* binary-search */,
+				CBE4055394344913AC5A81D0 /* ALL_BUILD */,
+				44330344415B4E61948C87C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBE4055394344913AC5A81D0 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				76AABD4624F64EBEA47A108B /* CMake Rules */,
+				51E86FDE337A401AA45D4785 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D4D2058883FD4EE1B946F07C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA6FE963C7F54DF8A51532CE /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8C96E90D0B345A4ACFF6EF7 /* binary-search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B517FC8B4FB4C7EB3885637 /* Build configuration list for PBXNativeTarget "binary-search" */;
+			buildPhases = (
+				B0995F96973449E0BCE3B54C /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FC04F1E590E464BBD3BD3FC /* PBXTargetDependency */,
+			);
+			name = "binary-search";
+			productName = "binary-search";
+			productReference = 3335280E87F64161A4A3501A /* binary-search */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D1A2D74F7924289B655FD52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1110;
+			};
+			buildConfigurationList = B23CBC0E9CDA48CA8B69A498 /* Build configuration list for PBXProject "binary-search" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BB48933BD0394CC0BE9ED922 /* Debug */,
+				DF26B62DC00746C18EB7733A /* Release */,
+				587EB4D0ADF94B0198197772 /* MinSizeRel */,
+				81FCF37D91B74CD7B5846E20 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C26C0BEFA1814B708C0729CB;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				17D0E06239164861B3504480 /* ALL_BUILD */,
+				E3FBC4AB0FBE4A2EB613087D /* ZERO_CHECK */,
+				F8C96E90D0B345A4ACFF6EF7 /* binary-search */,
+				DC90EF0D73CA4B2EB0578C53 /* test_binary-search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F8B7829A4C4004B7E2CF94 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		14900A597E0241DCB8C49FFB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		368B6113F45E42E7B6DF92EE /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/binary-search/build -f /Users/viraltaco/code/code/Exercism/cpp/binary-search/build/CMakeScripts/test_binary-search_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		4D9DE1E4BC654D5395EA222E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5E9CAD0B822C424A82C48E2B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/binary-search/build -f /Users/viraltaco/code/code/Exercism/cpp/binary-search/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		B786DAE59B0E4AD49F121AF6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/binary-search/build -f /Users/viraltaco/code/code/Exercism/cpp/binary-search/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0995F96973449E0BCE3B54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8EFB6695194694A39E5526 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search.cpp */,
+				40633FBA41A8415C8EC4704B /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/binary_search_test.cpp */,
+				7BC6A798CD81483885A3B3F1 /* /Users/viraltaco/code/code/Exercism/cpp/binary-search/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11191333D34F464885B1DB72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC90EF0D73CA4B2EB0578C53 /* test_binary-search */;
+			targetProxy = 4DD7CCDEE1C34DE1A38874D2 /* PBXContainerItemProxy */;
+		};
+		4881F1A16EB34838AE719F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C96E90D0B345A4ACFF6EF7 /* binary-search */;
+			targetProxy = 4718F5BC89AF48A7B9C46F80 /* PBXContainerItemProxy */;
+		};
+		4FC04F1E590E464BBD3BD3FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FBC4AB0FBE4A2EB613087D /* ZERO_CHECK */;
+			targetProxy = 94015CECEEC24EADB3580D4C /* PBXContainerItemProxy */;
+		};
+		A91BF66D68B245FFB070668D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FBC4AB0FBE4A2EB613087D /* ZERO_CHECK */;
+			targetProxy = 605CF276A6B345FBB3EB7D78 /* PBXContainerItemProxy */;
+		};
+		AB72AB0247F14094B9268881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8C96E90D0B345A4ACFF6EF7 /* binary-search */;
+			targetProxy = 7C6720954ED9428DAD3CF11B /* PBXContainerItemProxy */;
+		};
+		AC8969BC66374699A0A8EAA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3FBC4AB0FBE4A2EB613087D /* ZERO_CHECK */;
+			targetProxy = 74C7190DF5764BB4AF977629 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06E4A44639CB4DE79C6EC13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		12DC638001994CA499F6D48A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		21FF9C4849F14A299CE727FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		22785715FC1B488F996DBE2D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2FF9726DC0EC4181BFE0B734 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		396FBE584C6842978EF221BA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		3D25C94C801E45C6A751F123 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		46EBE029A75245E9BE1860B3 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		47B1CCD1F2F5409CA137718B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build/build";
+			};
+			name = Release;
+		};
+		50493CC706ED4691986F111C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		57E52FC3F5124B74803AD37B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6D4EB31E8D0B4222B353D2C7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		712155676ED44149BD695D52 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		71BFB8C8043243A4AB05BEF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B023B1DD28A0488E9B2AFC34 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build/build";
+			};
+			name = MinSizeRel;
+		};
+		C6E95CEC1CED405FBD40B039 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build/build";
+			};
+			name = Debug;
+		};
+		D485B46C46384032A2BAC14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		DE56F281B5B04C26A85761B0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E75A410FF4A74DB4A2C2C41D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_binary-search";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		FD75A1C839DD46BE83342EE0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/binary-search/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B517FC8B4FB4C7EB3885637 /* Build configuration list for PBXNativeTarget "binary-search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E52FC3F5124B74803AD37B /* Debug */,
+				21FF9C4849F14A299CE727FC /* Release */,
+				2FF9726DC0EC4181BFE0B734 /* MinSizeRel */,
+				22785715FC1B488F996DBE2D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		79402CFF63064680B1493D45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E4A44639CB4DE79C6EC13B /* Debug */,
+				50493CC706ED4691986F111C /* Release */,
+				FD75A1C839DD46BE83342EE0 /* MinSizeRel */,
+				46EBE029A75245E9BE1860B3 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		ABC9AB3BF0124A098167751C /* Build configuration list for PBXAggregateTarget "test_binary-search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D485B46C46384032A2BAC14E /* Debug */,
+				E75A410FF4A74DB4A2C2C41D /* Release */,
+				3D25C94C801E45C6A751F123 /* MinSizeRel */,
+				6D4EB31E8D0B4222B353D2C7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B23CBC0E9CDA48CA8B69A498 /* Build configuration list for PBXProject "binary-search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E95CEC1CED405FBD40B039 /* Debug */,
+				47B1CCD1F2F5409CA137718B /* Release */,
+				B023B1DD28A0488E9B2AFC34 /* MinSizeRel */,
+				396FBE584C6842978EF221BA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FCF54E4DE1C4496780EDAE30 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12DC638001994CA499F6D48A /* Debug */,
+				71BFB8C8043243A4AB05BEF4 /* Release */,
+				712155676ED44149BD695D52 /* MinSizeRel */,
+				DE56F281B5B04C26A85761B0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D1A2D74F7924289B655FD52 /* Project object */;
+}

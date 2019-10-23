@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/nth-prime/build/CMakeFiles/test_nth-prime.dir
+/Users/viraltaco/code/Exercism/cpp/nth-prime/build/CMakeFiles/nth-prime.dir
+/Users/viraltaco/code/Exercism/cpp/nth-prime/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/nth-prime/build/CMakeFiles/ZERO_CHECK.dir

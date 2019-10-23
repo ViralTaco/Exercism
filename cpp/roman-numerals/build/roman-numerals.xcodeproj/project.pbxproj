@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3E02B7C774F94DA098AC5B72 /* test_roman-numerals */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 8E21EC5708134D41B519D9D1 /* Build configuration list for PBXAggregateTarget "test_roman-numerals" */;
+			buildPhases = (
+				A60F9BEDE09A4426B2364202 /* CMake Rules */,
+			);
+			dependencies = (
+				E24894DE26694F608F2D1735 /* PBXTargetDependency */,
+				58A4C93A116347249B552214 /* PBXTargetDependency */,
+			);
+			name = "test_roman-numerals";
+			productName = "test_roman-numerals";
+		};
+		47F95822FF2B4894BB421BDB /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F9216BAD6BCA40918CC2737E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F7AAAB0FC1DD450BA0559C24 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		FFACE168BBD34DD1BC5913AA /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A28A27C4C43F4DCCAD7BF1E9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				064A573775C44AE38F8D8015 /* CMake Rules */,
+			);
+			dependencies = (
+				81893686DB0D4034904AD71E /* PBXTargetDependency */,
+				BD436BF369E9437B8C452ADD /* PBXTargetDependency */,
+				27B2E91065D84B3FAC3FC04C /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		270F7AA08FEE4545BF502101 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 29498F67153C47A3A297662E /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */; };
+		3042C7B032974F798886D6CF /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals_test.cpp */ = {isa = PBXBuildFile; fileRef = EF7C87166DEE46D0B84D4E1E /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals_test.cpp */; };
+		6A95219EB1FC4CE8827B7B51 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.cpp */ = {isa = PBXBuildFile; fileRef = 78AE11457AC94DD485F0D258 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.cpp */; };
+		78A6435B82EB4B5098B5CB2B /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.h */ = {isa = PBXBuildFile; fileRef = F2C489C1C62B41339C520511 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.h */; };
+		D421226C96A947D0AE160564 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 7DF6E0F7C0934383A52236B8 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/test/tests-main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		B36B1B63BD9D48C2B0B66B71 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		BBD8C3EE69E1484CB52C923E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C026D5C69844400CA3F885AE /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		EFE7F2BCADDB4DE6A672F3F5 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0EA3AAADD4E94D6E905B2D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE02CB1BBB94F7592DE1297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0AEBD9B0FB4821BF52134D;
+			remoteInfo = "roman-numerals";
+		};
+		4BB8B2A4CF0649259D2DA836 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE02CB1BBB94F7592DE1297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB0AEBD9B0FB4821BF52134D;
+			remoteInfo = "roman-numerals";
+		};
+		62F6542F23024056AA89B3E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE02CB1BBB94F7592DE1297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F95822FF2B4894BB421BDB;
+			remoteInfo = ZERO_CHECK;
+		};
+		9740C093AA764DAA9707D69E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE02CB1BBB94F7592DE1297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E02B7C774F94DA098AC5B72;
+			remoteInfo = "test_roman-numerals";
+		};
+		BF9CE4E4FB524C83A800E006 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE02CB1BBB94F7592DE1297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F95822FF2B4894BB421BDB;
+			remoteInfo = ZERO_CHECK;
+		};
+		F2630C6AD05F46FFAC11DF2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DE02CB1BBB94F7592DE1297 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F95822FF2B4894BB421BDB;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07859FBC2F164B699CA36D89 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		29498F67153C47A3A297662E /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		78AE11457AC94DD485F0D258 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = roman_numerals.cpp; path = roman_numerals.cpp; sourceTree = SOURCE_ROOT; };
+		7DF6E0F7C0934383A52236B8 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		84A3FDB39588443185CAC910 /* roman-numerals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "roman-numerals"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E654305A071B4C319D4FB76F /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EF7C87166DEE46D0B84D4E1E /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = roman_numerals_test.cpp; path = roman_numerals_test.cpp; sourceTree = SOURCE_ROOT; };
+		F2C489C1C62B41339C520511 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = roman_numerals.h; path = roman_numerals.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		077E305C18A7478EABF7E994 /* roman-numerals */ = {
+			isa = PBXGroup;
+			children = (
+				81A87B169D264E9BBFC0F2E6 /* Source Files */,
+				3E2D8CFA733E46C79A6671D9 /* Header Files */,
+				29498F67153C47A3A297662E /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */,
+			);
+			name = "roman-numerals";
+			sourceTree = "<group>";
+		};
+		3E2D8CFA733E46C79A6671D9 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				F2C489C1C62B41339C520511 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		4D395BFCC05B45FBBD6E05A7 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				607BECABC8E240CEB2470C9A /* CMake Rules */,
+				E654305A071B4C319D4FB76F /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		607BECABC8E240CEB2470C9A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		67A61F5F506549B288DD4D43 /* test_roman-numerals */ = {
+			isa = PBXGroup;
+			children = (
+				D63CDE00489B4DA69B441618 /* CMake Rules */,
+				07859FBC2F164B699CA36D89 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/CMakeLists.txt */,
+			);
+			name = "test_roman-numerals";
+			sourceTree = "<group>";
+		};
+		81A87B169D264E9BBFC0F2E6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				78AE11457AC94DD485F0D258 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.cpp */,
+				EF7C87166DEE46D0B84D4E1E /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals_test.cpp */,
+				7DF6E0F7C0934383A52236B8 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		853F4529A49649FFBA79A31F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84A3FDB39588443185CAC910 /* roman-numerals */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86432E7020D94272A0A82263 = {
+			isa = PBXGroup;
+			children = (
+				67A61F5F506549B288DD4D43 /* test_roman-numerals */,
+				077E305C18A7478EABF7E994 /* roman-numerals */,
+				4D395BFCC05B45FBBD6E05A7 /* ALL_BUILD */,
+				853F4529A49649FFBA79A31F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D63CDE00489B4DA69B441618 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB0AEBD9B0FB4821BF52134D /* roman-numerals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2EE32F95ED743C1BD026E9B /* Build configuration list for PBXNativeTarget "roman-numerals" */;
+			buildPhases = (
+				ECBF99AACB2A416F940EC4EC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3238A39F7D4931BF0E6D80 /* PBXTargetDependency */,
+			);
+			name = "roman-numerals";
+			productName = "roman-numerals";
+			productReference = 84A3FDB39588443185CAC910 /* roman-numerals */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE02CB1BBB94F7592DE1297 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1030;
+			};
+			buildConfigurationList = 6E72B41C4B8F47BC87778B7D /* Build configuration list for PBXProject "roman-numerals" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				BBD8C3EE69E1484CB52C923E /* Debug */,
+				EFE7F2BCADDB4DE6A672F3F5 /* Release */,
+				B36B1B63BD9D48C2B0B66B71 /* MinSizeRel */,
+				C026D5C69844400CA3F885AE /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 86432E7020D94272A0A82263;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				FFACE168BBD34DD1BC5913AA /* ALL_BUILD */,
+				47F95822FF2B4894BB421BDB /* ZERO_CHECK */,
+				FB0AEBD9B0FB4821BF52134D /* roman-numerals */,
+				3E02B7C774F94DA098AC5B72 /* test_roman-numerals */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		064A573775C44AE38F8D8015 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/roman-numerals/build -f /Users/viraltaco/code/Exercism/cpp/roman-numerals/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		21F4719652F64B1C907A457A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		88D534D289494990BEB0D30E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A60F9BEDE09A4426B2364202 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/roman-numerals/build -f /Users/viraltaco/code/Exercism/cpp/roman-numerals/build/CMakeScripts/test_roman-numerals_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		F7AAAB0FC1DD450BA0559C24 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/roman-numerals/build -f /Users/viraltaco/code/Exercism/cpp/roman-numerals/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FA5378D51E77453E8062B03C = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBF99AACB2A416F940EC4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A95219EB1FC4CE8827B7B51 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals.cpp */,
+				3042C7B032974F798886D6CF /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/roman_numerals_test.cpp */,
+				D421226C96A947D0AE160564 /* /Users/viraltaco/code/Exercism/cpp/roman-numerals/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27B2E91065D84B3FAC3FC04C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0AEBD9B0FB4821BF52134D /* roman-numerals */;
+			targetProxy = 4BB8B2A4CF0649259D2DA836 /* PBXContainerItemProxy */;
+		};
+		58A4C93A116347249B552214 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB0AEBD9B0FB4821BF52134D /* roman-numerals */;
+			targetProxy = 0EA3AAADD4E94D6E905B2D52 /* PBXContainerItemProxy */;
+		};
+		81893686DB0D4034904AD71E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F95822FF2B4894BB421BDB /* ZERO_CHECK */;
+			targetProxy = F2630C6AD05F46FFAC11DF2D /* PBXContainerItemProxy */;
+		};
+		BD436BF369E9437B8C452ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3E02B7C774F94DA098AC5B72 /* test_roman-numerals */;
+			targetProxy = 9740C093AA764DAA9707D69E /* PBXContainerItemProxy */;
+		};
+		DA3238A39F7D4931BF0E6D80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F95822FF2B4894BB421BDB /* ZERO_CHECK */;
+			targetProxy = 62F6542F23024056AA89B3E7 /* PBXContainerItemProxy */;
+		};
+		E24894DE26694F608F2D1735 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F95822FF2B4894BB421BDB /* ZERO_CHECK */;
+			targetProxy = BF9CE4E4FB524C83A800E006 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		058A20EA5F6048E593FE8D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/build";
+			};
+			name = Debug;
+		};
+		0856C5A975AD4C8483ED1B5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0C8889D2727E423AAA476999 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		17846AA3131B4D0ABD5BE3F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		180943B909E84A8291FC2D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		255A8459A9384D17BE7E8B9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2FA434A279E94561B96D4C9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		46E0B76BBAF3450EA380001C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/build";
+			};
+			name = Release;
+		};
+		55E848918EA44A7E94B59C7B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6345A6E7379D4F45B839C1EA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		661709041F65477CB1192B27 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		664C682E807D4125BD32B18C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/build";
+			};
+			name = MinSizeRel;
+		};
+		87A5E348827A40769A9081CA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		97D7FDFE2A6E41308DE5C45E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		A04D7B5B7D4C4A3C8A2F7AD6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		A96E1BD366DD49CC978919FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AC8547B128314D0F824C05A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		ADDAF032DB9A461AB76F0802 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		BA6574F852254B35AFA56ED4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "roman-numerals";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CEB6C9AEF79343FCAC0F4610 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/Exercism/cpp/roman-numerals/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E72B41C4B8F47BC87778B7D /* Build configuration list for PBXProject "roman-numerals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058A20EA5F6048E593FE8D14 /* Debug */,
+				46E0B76BBAF3450EA380001C /* Release */,
+				664C682E807D4125BD32B18C /* MinSizeRel */,
+				ADDAF032DB9A461AB76F0802 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8E21EC5708134D41B519D9D1 /* Build configuration list for PBXAggregateTarget "test_roman-numerals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				97D7FDFE2A6E41308DE5C45E /* Debug */,
+				0856C5A975AD4C8483ED1B5C /* Release */,
+				55E848918EA44A7E94B59C7B /* MinSizeRel */,
+				661709041F65477CB1192B27 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A28A27C4C43F4DCCAD7BF1E9 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FA434A279E94561B96D4C9B /* Debug */,
+				255A8459A9384D17BE7E8B9E /* Release */,
+				87A5E348827A40769A9081CA /* MinSizeRel */,
+				CEB6C9AEF79343FCAC0F4610 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A2EE32F95ED743C1BD026E9B /* Build configuration list for PBXNativeTarget "roman-numerals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17846AA3131B4D0ABD5BE3F2 /* Debug */,
+				AC8547B128314D0F824C05A6 /* Release */,
+				6345A6E7379D4F45B839C1EA /* MinSizeRel */,
+				BA6574F852254B35AFA56ED4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9216BAD6BCA40918CC2737E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180943B909E84A8291FC2D03 /* Debug */,
+				A96E1BD366DD49CC978919FA /* Release */,
+				0C8889D2727E423AAA476999 /* MinSizeRel */,
+				A04D7B5B7D4C4A3C8A2F7AD6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE02CB1BBB94F7592DE1297 /* Project object */;
+}

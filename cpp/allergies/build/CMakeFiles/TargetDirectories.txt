@@ -1,0 +1,4 @@
+/Users/viraltaco/code/Exercism/cpp/allergies/build/CMakeFiles/test_allergies.dir
+/Users/viraltaco/code/Exercism/cpp/allergies/build/CMakeFiles/allergies.dir
+/Users/viraltaco/code/Exercism/cpp/allergies/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/Exercism/cpp/allergies/build/CMakeFiles/ZERO_CHECK.dir
