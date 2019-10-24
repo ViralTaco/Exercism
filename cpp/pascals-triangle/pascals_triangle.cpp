@@ -6,30 +6,22 @@
 
 #include "pascals_triangle.h"
 
-
 namespace pascals_triangle {
-
-[[nodiscard]] matrix_t<int> generate_rows(unsigned int rows)
-{
-  if (rows == 0U)
+Matrix<int> generate_rows(const int rows) {
+  if (rows == 0)
     return {};
   
-  matrix_t<int> result_matrix{ {1} };
-  
-  if (rows > 1U)
-    result_matrix.push_back({1, 1});
-  
-  for (unsigned int i{1U}; i < rows; ++i) {
-    std::vector<int> row{1};
+  Matrix<int> result_matrix{};
+  for (int x = 1; x <= rows; ++x) {
+    std::vector<int> line{ 1 }; // First elem is always 1
+    int coef = 1;
     
-    auto begin{ result_matrix[ i ].begin() };
-    while (begin != result_matrix[ i ].end()){
-      row.push_back(*begin + *(begin + 1));
-      ++begin;
+    for (int y = 1; y < x; ++y) {
+      coef = coef * (x - y) / y;
+      line.push_back(coef);
     }
     
-    row.push_back(1);
-    result_matrix.push_back(row);
+    result_matrix.push_back(line);
   }
   
   return result_matrix;

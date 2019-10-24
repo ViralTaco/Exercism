@@ -1,4 +1,4 @@
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/test_pascals-triangle.dir
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/pascals-triangle.dir
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/ALL_BUILD.dir
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/ZERO_CHECK.dir
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/test_pascals-triangle.dir
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/pascals-triangle.dir
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/ZERO_CHECK.dir

@@ -5,7 +5,6 @@
 #include <array>
 #include <vector>
 #include <cstddef>   // std::size_t
-#include <future>    // std::async
 
 #include <algorithm> // std::transform()
 #include <cstring>   // std::tolower()
@@ -26,7 +25,6 @@ public: // constructor
 public: // methods
   auto matches(const std::vector<std::string>& word_list) {
     std::vector<std::string> match_list{};
-    // TODO: make this async (iunno)
     
     for (const auto& s: word_list)
       if (is_anagram(as_lower(s)))
@@ -36,8 +34,8 @@ public: // methods
   }
   
   bool is_anagram(const std::string& str) const noexcept {
-    return word_ != str
-       and word_.length() == str.length()
+    return word_ .length() == str.length()
+       and word_ != str
        and letter_count_ == count_letters(str)
     ;
   }
