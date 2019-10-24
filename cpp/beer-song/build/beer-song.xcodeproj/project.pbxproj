@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2C3D55EB453142ABA6E12105 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E8F033845A524BC78B6BF9A6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				48E10427DDEE445CB870EFB6 /* CMake Rules */,
+			);
+			dependencies = (
+				E0F0FAFCE5484B4497A1E3C9 /* PBXTargetDependency */,
+				9305761CA8DD459DB0A7C6A8 /* PBXTargetDependency */,
+				67CF037108BD4F35988AA8EE /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		763C7815599840858D39F63B /* test_beer-song */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0D07919BC93A4328A9ECF0A3 /* Build configuration list for PBXAggregateTarget "test_beer-song" */;
+			buildPhases = (
+				90950C6834C94232A34E41B9 /* CMake Rules */,
+			);
+			dependencies = (
+				83773AF9F3D24EEC88398A12 /* PBXTargetDependency */,
+				6D30B7EC85014700AEA8A442 /* PBXTargetDependency */,
+			);
+			name = "test_beer-song";
+			productName = "test_beer-song";
+		};
+		79B2663412AC42808CB89311 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72CB2FB4A0644E9886FE23D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F69024449BC44319948EAA65 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		08257BB9F2C8483D8E407BA1 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 9342E13700274E8D8D1AD652 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/test/tests-main.cpp */; };
+		1989BD5BB22848B28ABF9125 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song_test.cpp */ = {isa = PBXBuildFile; fileRef = F10A8B11310C45E4AE092E1F /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song_test.cpp */; };
+		21EFF5618530459EA5FC7B35 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.cpp */ = {isa = PBXBuildFile; fileRef = A07820D6DB85464E9696127A /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.cpp */; };
+		53D5DA6F8D8C4FA2B45A0E8B /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F51D27D78BFD4B68A4BD3C74 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */; };
+		6977A3DF9D7841ED9E010F0F /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.h */ = {isa = PBXBuildFile; fileRef = 73862030C22045588168B44B /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		868F808FBB644A188BCD8E03 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		8BB6FE99946B46DE85837B3C /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9E3BBA5F97234D239085DEBB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		BDA44CA137294AA59E5CD82B /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		1B92AF2BD38440A5B241F777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A01730F74D441E5809FB560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763C7815599840858D39F63B;
+			remoteInfo = "test_beer-song";
+		};
+		7864AA2B5A36449BBFCFE06C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A01730F74D441E5809FB560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B2663412AC42808CB89311;
+			remoteInfo = ZERO_CHECK;
+		};
+		95D60DB996294B208BA9CCE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A01730F74D441E5809FB560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6551B6C536FB49B784F83048;
+			remoteInfo = "beer-song";
+		};
+		BB982411AB0F463A91E38CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A01730F74D441E5809FB560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B2663412AC42808CB89311;
+			remoteInfo = ZERO_CHECK;
+		};
+		CC8A4DD605E342059D101A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A01730F74D441E5809FB560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6551B6C536FB49B784F83048;
+			remoteInfo = "beer-song";
+		};
+		F6FDB077217E439E848E6B0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A01730F74D441E5809FB560 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79B2663412AC42808CB89311;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		73862030C22045588168B44B /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = beer_song.h; path = beer_song.h; sourceTree = SOURCE_ROOT; };
+		9342E13700274E8D8D1AD652 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		A07820D6DB85464E9696127A /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = beer_song.cpp; path = beer_song.cpp; sourceTree = SOURCE_ROOT; };
+		ACB16CC817D14FEC89F23431 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B4BEC08A9ADC442E879C1EB9 /* beer-song */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "beer-song"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1E56A3CB444ADF8F64F380 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F10A8B11310C45E4AE092E1F /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = beer_song_test.cpp; path = beer_song_test.cpp; sourceTree = SOURCE_ROOT; };
+		F51D27D78BFD4B68A4BD3C74 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2B3FDE48024B47B1850ABF1F = {
+			isa = PBXGroup;
+			children = (
+				543E29FAF9494B89AA17801A /* test_beer-song */,
+				5FE8144A3E604B7FBE9C9E75 /* beer-song */,
+				967EA1CBBBCE46E3B487FC80 /* ALL_BUILD */,
+				A75B8D80B1BB472CA6862C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		543E29FAF9494B89AA17801A /* test_beer-song */ = {
+			isa = PBXGroup;
+			children = (
+				E725D5CD46994A39A57946B7 /* CMake Rules */,
+				BF1E56A3CB444ADF8F64F380 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */,
+			);
+			name = "test_beer-song";
+			sourceTree = "<group>";
+		};
+		5FE8144A3E604B7FBE9C9E75 /* beer-song */ = {
+			isa = PBXGroup;
+			children = (
+				E0872C9E5BC845C3B021D8C4 /* Source Files */,
+				FE679134073D46229FE5D83C /* Header Files */,
+				F51D27D78BFD4B68A4BD3C74 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */,
+			);
+			name = "beer-song";
+			sourceTree = "<group>";
+		};
+		967EA1CBBBCE46E3B487FC80 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				A20EAFF9CBD94295940C84CE /* CMake Rules */,
+				ACB16CC817D14FEC89F23431 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A20EAFF9CBD94295940C84CE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		A75B8D80B1BB472CA6862C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4BEC08A9ADC442E879C1EB9 /* beer-song */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0872C9E5BC845C3B021D8C4 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A07820D6DB85464E9696127A /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.cpp */,
+				F10A8B11310C45E4AE092E1F /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song_test.cpp */,
+				9342E13700274E8D8D1AD652 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E725D5CD46994A39A57946B7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		FE679134073D46229FE5D83C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				73862030C22045588168B44B /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6551B6C536FB49B784F83048 /* beer-song */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5949A8C13694B59AE6C3994 /* Build configuration list for PBXNativeTarget "beer-song" */;
+			buildPhases = (
+				B52310A81FEA410790934ACC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C977C7CC771F424BBC4B9842 /* PBXTargetDependency */,
+			);
+			name = "beer-song";
+			productName = "beer-song";
+			productReference = B4BEC08A9ADC442E879C1EB9 /* beer-song */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A01730F74D441E5809FB560 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1110;
+			};
+			buildConfigurationList = BCDEAC0BB3E0420ABE271FCE /* Build configuration list for PBXProject "beer-song" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9E3BBA5F97234D239085DEBB /* Debug */,
+				8BB6FE99946B46DE85837B3C /* Release */,
+				BDA44CA137294AA59E5CD82B /* MinSizeRel */,
+				868F808FBB644A188BCD8E03 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2B3FDE48024B47B1850ABF1F;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				2C3D55EB453142ABA6E12105 /* ALL_BUILD */,
+				79B2663412AC42808CB89311 /* ZERO_CHECK */,
+				6551B6C536FB49B784F83048 /* beer-song */,
+				763C7815599840858D39F63B /* test_beer-song */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48E10427DDEE445CB870EFB6 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/beer-song/build -f /Users/viraltaco/code/code/Exercism/cpp/beer-song/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		82944302468D42D3917B2B4A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		82BD47B69D2E470B8E82BE7E = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		90950C6834C94232A34E41B9 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/beer-song/build -f /Users/viraltaco/code/code/Exercism/cpp/beer-song/build/CMakeScripts/test_beer-song_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DDEB40112A5E4AC18A62CE83 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F69024449BC44319948EAA65 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/beer-song/build -f /Users/viraltaco/code/code/Exercism/cpp/beer-song/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B52310A81FEA410790934ACC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EFF5618530459EA5FC7B35 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song.cpp */,
+				1989BD5BB22848B28ABF9125 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/beer_song_test.cpp */,
+				08257BB9F2C8483D8E407BA1 /* /Users/viraltaco/code/code/Exercism/cpp/beer-song/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67CF037108BD4F35988AA8EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B2663412AC42808CB89311 /* ZERO_CHECK */;
+			targetProxy = BB982411AB0F463A91E38CDC /* PBXContainerItemProxy */;
+		};
+		6D30B7EC85014700AEA8A442 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B2663412AC42808CB89311 /* ZERO_CHECK */;
+			targetProxy = F6FDB077217E439E848E6B0F /* PBXContainerItemProxy */;
+		};
+		83773AF9F3D24EEC88398A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6551B6C536FB49B784F83048 /* beer-song */;
+			targetProxy = CC8A4DD605E342059D101A57 /* PBXContainerItemProxy */;
+		};
+		9305761CA8DD459DB0A7C6A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6551B6C536FB49B784F83048 /* beer-song */;
+			targetProxy = 95D60DB996294B208BA9CCE1 /* PBXContainerItemProxy */;
+		};
+		C977C7CC771F424BBC4B9842 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79B2663412AC42808CB89311 /* ZERO_CHECK */;
+			targetProxy = 7864AA2B5A36449BBFCFE06C /* PBXContainerItemProxy */;
+		};
+		E0F0FAFCE5484B4497A1E3C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763C7815599840858D39F63B /* test_beer-song */;
+			targetProxy = 1B92AF2BD38440A5B241F777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CBF1CE304AA474B96B71E2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		19F76BCD19FE448BA8D205DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1D609DAFBCDA490C8720D5F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/build";
+			};
+			name = Debug;
+		};
+		290FA33C56334C62863729A7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4CFF44A99B6C4D089A653B16 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4F84883E11A7438DBA88743E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/build";
+			};
+			name = Release;
+		};
+		53850722045043AE99EB84F4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5FBD6197E5D54C82922BE51A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		66680247F5E54BCBACF76033 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		6A3025326BA541F38D673A01 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		7CDC6D9E4DA3430BB2F6274F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		824B5C53A4904A548651F09A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		92092C54604F48D892D2556A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		B1F33FF23E9245EBAA6249DC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/build";
+			};
+			name = MinSizeRel;
+		};
+		B7AB02E25E354B2089AE94F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C14792531C364D5D959C3CC1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		CD0BA381425B4DD7A6B3CBC4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		D5A84764E6764D04A2384AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		E77361BDC36E4F28BD4CC047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F1EE490250B042CAA8BF6770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "beer-song";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/beer-song/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D07919BC93A4328A9ECF0A3 /* Build configuration list for PBXAggregateTarget "test_beer-song" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5A84764E6764D04A2384AF8 /* Debug */,
+				0CBF1CE304AA474B96B71E2E /* Release */,
+				290FA33C56334C62863729A7 /* MinSizeRel */,
+				824B5C53A4904A548651F09A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72CB2FB4A0644E9886FE23D4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66680247F5E54BCBACF76033 /* Debug */,
+				B7AB02E25E354B2089AE94F2 /* Release */,
+				7CDC6D9E4DA3430BB2F6274F /* MinSizeRel */,
+				CD0BA381425B4DD7A6B3CBC4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5949A8C13694B59AE6C3994 /* Build configuration list for PBXNativeTarget "beer-song" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FBD6197E5D54C82922BE51A /* Debug */,
+				F1EE490250B042CAA8BF6770 /* Release */,
+				53850722045043AE99EB84F4 /* MinSizeRel */,
+				6A3025326BA541F38D673A01 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BCDEAC0BB3E0420ABE271FCE /* Build configuration list for PBXProject "beer-song" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D609DAFBCDA490C8720D5F7 /* Debug */,
+				4F84883E11A7438DBA88743E /* Release */,
+				B1F33FF23E9245EBAA6249DC /* MinSizeRel */,
+				92092C54604F48D892D2556A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E8F033845A524BC78B6BF9A6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E77361BDC36E4F28BD4CC047 /* Debug */,
+				19F76BCD19FE448BA8D205DD /* Release */,
+				4CFF44A99B6C4D089A653B16 /* MinSizeRel */,
+				C14792531C364D5D959C3CC1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A01730F74D441E5809FB560 /* Project object */;
+}

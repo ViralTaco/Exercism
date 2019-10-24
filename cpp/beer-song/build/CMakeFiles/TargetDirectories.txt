@@ -1,0 +1,4 @@
+/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/CMakeFiles/test_beer-song.dir
+/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/CMakeFiles/beer-song.dir
+/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/code/Exercism/cpp/beer-song/build/CMakeFiles/ZERO_CHECK.dir
