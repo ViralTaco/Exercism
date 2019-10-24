@@ -2,10 +2,10 @@
 # Custom rules for test_pascals-triangle
 .SUFFIXES: 
 all: \
-	/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/test_pascals-triangle
+	/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/test_pascals-triangle
 
 
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/test_pascals-triangle: \
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/CMakeFiles/test_pascals-triangle: \
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle
 	echo ""
-	/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle
+	/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle

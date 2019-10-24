@@ -13,9 +13,10 @@
 
 namespace pascals_triangle {
 
-template <class Tn> using matrix_t = typename std::vector< std::vector<Tn> >;
+template <typename Integral> 
+using Matrix = typename std::vector< std::vector<Integral> >;
 
-matrix_t<int> generate_rows(unsigned int rows);
+Matrix<int> generate_rows(const int);
 
 } // namespace pascals_triangle
 

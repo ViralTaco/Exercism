@@ -8,35 +8,25 @@ default:
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
 PostBuild.pascals-triangle.Debug:
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/Debug/pascals-triangle:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/Debug/pascals-triangle
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/Debug/pascals-triangle:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/Debug/pascals-triangle
 
 
 PostBuild.pascals-triangle.Release:
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/Release/pascals-triangle:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/Release/pascals-triangle
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/Release/pascals-triangle:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/Release/pascals-triangle
 
 
 PostBuild.pascals-triangle.MinSizeRel:
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/MinSizeRel/pascals-triangle:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/MinSizeRel/pascals-triangle
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/MinSizeRel/pascals-triangle:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/MinSizeRel/pascals-triangle
 
 
 PostBuild.pascals-triangle.RelWithDebInfo:
-/Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle
+/Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/pascals-triangle/build/RelWithDebInfo/pascals-triangle
 
 
 
 
 # For each target create a dummy ruleso the target does not have to exist
-/usr/local/lib/libboost_date_time-mt.a:
-/usr/local/lib/libboost_unit_test_framework-mt.a:
