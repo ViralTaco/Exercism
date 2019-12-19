@@ -8,40 +8,25 @@ default:
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
 PostBuild.hexadecimal.Debug:
-/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/Debug/hexadecimal:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a\
-	/usr/local/lib/libboost_regex-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/hexadecimal/build/Debug/hexadecimal
+/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/Debug/hexadecimal:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/Debug/hexadecimal
 
 
 PostBuild.hexadecimal.Release:
-/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/Release/hexadecimal:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a\
-	/usr/local/lib/libboost_regex-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/hexadecimal/build/Release/hexadecimal
+/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/Release/hexadecimal:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/Release/hexadecimal
 
 
 PostBuild.hexadecimal.MinSizeRel:
-/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/MinSizeRel/hexadecimal:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a\
-	/usr/local/lib/libboost_regex-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/hexadecimal/build/MinSizeRel/hexadecimal
+/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/MinSizeRel/hexadecimal:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/MinSizeRel/hexadecimal
 
 
 PostBuild.hexadecimal.RelWithDebInfo:
-/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal:\
-	/usr/local/lib/libboost_unit_test_framework-mt.a\
-	/usr/local/lib/libboost_date_time-mt.a\
-	/usr/local/lib/libboost_regex-mt.a
-	/bin/rm -f /Users/viraltaco/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal
+/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal:
+	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal
 
 
 
 
 # For each target create a dummy ruleso the target does not have to exist
-/usr/local/lib/libboost_date_time-mt.a:
-/usr/local/lib/libboost_regex-mt.a:
-/usr/local/lib/libboost_unit_test_framework-mt.a:

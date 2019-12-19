@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		03324ABABC9042A09E9BDF97 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A5D1D05CD4BC47EF92D72DB0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				40727AF0FC564C4584AB4621 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		4225C1599C0C4F5F8C4D690B /* test_protein-translation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B19CE9471C244C38745AAF3 /* Build configuration list for PBXAggregateTarget "test_protein-translation" */;
+			buildPhases = (
+				B80CE352818246B2B6F8C487 /* CMake Rules */,
+			);
+			dependencies = (
+				871BB9D39AF34BE78FDC3AAF /* PBXTargetDependency */,
+				ECF5A480DA3844029CC5DA91 /* PBXTargetDependency */,
+			);
+			name = "test_protein-translation";
+			productName = "test_protein-translation";
+		};
+		9C1A55D6BC05450A838B2B3E /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F0EA10C8C5EB47BD84C486D6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				115E99BCCB8249C885158713 /* CMake Rules */,
+			);
+			dependencies = (
+				C80181050300475A8DE282D4 /* PBXTargetDependency */,
+				2B5486A4245A4764941E9441 /* PBXTargetDependency */,
+				FA6B720D42D04DAD92AF08A2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0CE13CF66C79474DB7DA8FE0 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B643B8E013774B4FBB08E904 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */; };
+		13553CE82CB64B3DBF8D04D9 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.cpp */ = {isa = PBXBuildFile; fileRef = 1D48B499868141E99A4CAEB3 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.cpp */; };
+		177E60281308456FA5E40E91 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 1913509CBD3749038BE367E3 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/test/tests-main.cpp */; };
+		45310B1B52D0417A99CE1FC8 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.h */ = {isa = PBXBuildFile; fileRef = EECD77C8C0A54A5294AE6C15 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.h */; };
+		C54BEEC254F8490AA1A037E8 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation_test.cpp */ = {isa = PBXBuildFile; fileRef = AE6CBB6629834D87A2B0671C /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation_test.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		2D273C7F4714486EB09EBC64 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		509DA53DF2F7453F9060E946 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		69146E88638A4559837E51D0 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		D1409D4A925F400A8E4B98B6 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		06C2ED6919AB4B74BE944FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374EAEB04FDA4033994F4C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8022597A81734DFABED9DE7E;
+			remoteInfo = "protein-translation";
+		};
+		138085C021FC4108AC8760A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374EAEB04FDA4033994F4C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8022597A81734DFABED9DE7E;
+			remoteInfo = "protein-translation";
+		};
+		74BED079C63A4C07A93C193F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374EAEB04FDA4033994F4C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03324ABABC9042A09E9BDF97;
+			remoteInfo = ZERO_CHECK;
+		};
+		74E5C5E01C964B28A1A7362F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374EAEB04FDA4033994F4C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03324ABABC9042A09E9BDF97;
+			remoteInfo = ZERO_CHECK;
+		};
+		B80FFF71B9E743AF864C3531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374EAEB04FDA4033994F4C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03324ABABC9042A09E9BDF97;
+			remoteInfo = ZERO_CHECK;
+		};
+		CC835A69440244D2BB288EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 374EAEB04FDA4033994F4C60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4225C1599C0C4F5F8C4D690B;
+			remoteInfo = "test_protein-translation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1913509CBD3749038BE367E3 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		1D48B499868141E99A4CAEB3 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protein_translation.cpp; path = protein_translation.cpp; sourceTree = SOURCE_ROOT; };
+		28DBA20746A4468F96989011 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4763A4DBCB2A40E6B0032B0B /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A2AD957D743C499FBEABE6DB /* protein-translation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "protein-translation"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE6CBB6629834D87A2B0671C /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = protein_translation_test.cpp; path = protein_translation_test.cpp; sourceTree = SOURCE_ROOT; };
+		B643B8E013774B4FBB08E904 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EECD77C8C0A54A5294AE6C15 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = protein_translation.h; path = protein_translation.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13493881B3534F73AA6FADFD = {
+			isa = PBXGroup;
+			children = (
+				96C7FF7CB2764CC284B5084F /* test_protein-translation */,
+				4F6129F45D044231BD2B475B /* protein-translation */,
+				40171B2494E945A9B4DC4673 /* ALL_BUILD */,
+				D846C0136D1047A59877BB13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40171B2494E945A9B4DC4673 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				CC4560429D3B4DE78C18CD1C /* CMake Rules */,
+				28DBA20746A4468F96989011 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		4F6129F45D044231BD2B475B /* protein-translation */ = {
+			isa = PBXGroup;
+			children = (
+				52F80A71167A4D25A780740A /* Source Files */,
+				8331CDAA1C884068B6921D0C /* Header Files */,
+				B643B8E013774B4FBB08E904 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */,
+			);
+			name = "protein-translation";
+			sourceTree = "<group>";
+		};
+		52F80A71167A4D25A780740A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D48B499868141E99A4CAEB3 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.cpp */,
+				AE6CBB6629834D87A2B0671C /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation_test.cpp */,
+				1913509CBD3749038BE367E3 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		55197E2564794F04A5BE8F0D /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		8331CDAA1C884068B6921D0C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECD77C8C0A54A5294AE6C15 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		96C7FF7CB2764CC284B5084F /* test_protein-translation */ = {
+			isa = PBXGroup;
+			children = (
+				55197E2564794F04A5BE8F0D /* CMake Rules */,
+				4763A4DBCB2A40E6B0032B0B /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/CMakeLists.txt */,
+			);
+			name = "test_protein-translation";
+			sourceTree = "<group>";
+		};
+		CC4560429D3B4DE78C18CD1C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		D846C0136D1047A59877BB13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD957D743C499FBEABE6DB /* protein-translation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8022597A81734DFABED9DE7E /* protein-translation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E15CCF15E6934190A0E58FC9 /* Build configuration list for PBXNativeTarget "protein-translation" */;
+			buildPhases = (
+				A26EC12FD87E46BAB7045368 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB90B39957B7443D8B97E786 /* PBXTargetDependency */,
+			);
+			name = "protein-translation";
+			productName = "protein-translation";
+			productReference = A2AD957D743C499FBEABE6DB /* protein-translation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		374EAEB04FDA4033994F4C60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1120;
+			};
+			buildConfigurationList = 410151DB953144D68941E16A /* Build configuration list for PBXProject "protein-translation" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				D1409D4A925F400A8E4B98B6 /* Debug */,
+				69146E88638A4559837E51D0 /* Release */,
+				509DA53DF2F7453F9060E946 /* MinSizeRel */,
+				2D273C7F4714486EB09EBC64 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 13493881B3534F73AA6FADFD;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				9C1A55D6BC05450A838B2B3E /* ALL_BUILD */,
+				03324ABABC9042A09E9BDF97 /* ZERO_CHECK */,
+				8022597A81734DFABED9DE7E /* protein-translation */,
+				4225C1599C0C4F5F8C4D690B /* test_protein-translation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		115E99BCCB8249C885158713 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/protein-translation/build -f /Users/viraltaco/code/code/Exercism/cpp/protein-translation/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		40727AF0FC564C4584AB4621 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/protein-translation/build -f /Users/viraltaco/code/code/Exercism/cpp/protein-translation/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		598D7A18181A4D9CA69DCFA8 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		8D55DFD036084FC5ACC1DB91 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		B80CE352818246B2B6F8C487 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/code/code/Exercism/cpp/protein-translation/build -f /Users/viraltaco/code/code/Exercism/cpp/protein-translation/build/CMakeScripts/test_protein-translation_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		DC423E5B37E34A2395DE58BB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26EC12FD87E46BAB7045368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13553CE82CB64B3DBF8D04D9 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation.cpp */,
+				C54BEEC254F8490AA1A037E8 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/protein_translation_test.cpp */,
+				177E60281308456FA5E40E91 /* /Users/viraltaco/code/code/Exercism/cpp/protein-translation/test/tests-main.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B5486A4245A4764941E9441 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8022597A81734DFABED9DE7E /* protein-translation */;
+			targetProxy = 138085C021FC4108AC8760A2 /* PBXContainerItemProxy */;
+		};
+		871BB9D39AF34BE78FDC3AAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8022597A81734DFABED9DE7E /* protein-translation */;
+			targetProxy = 06C2ED6919AB4B74BE944FCE /* PBXContainerItemProxy */;
+		};
+		C80181050300475A8DE282D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4225C1599C0C4F5F8C4D690B /* test_protein-translation */;
+			targetProxy = CC835A69440244D2BB288EC8 /* PBXContainerItemProxy */;
+		};
+		CB90B39957B7443D8B97E786 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03324ABABC9042A09E9BDF97 /* ZERO_CHECK */;
+			targetProxy = 74E5C5E01C964B28A1A7362F /* PBXContainerItemProxy */;
+		};
+		ECF5A480DA3844029CC5DA91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03324ABABC9042A09E9BDF97 /* ZERO_CHECK */;
+			targetProxy = 74BED079C63A4C07A93C193F /* PBXContainerItemProxy */;
+		};
+		FA6B720D42D04DAD92AF08A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03324ABABC9042A09E9BDF97 /* ZERO_CHECK */;
+			targetProxy = B80FFF71B9E743AF864C3531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03A667825553449D9D87A4D7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		07EE4A5260064056A3B85E4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build/build";
+			};
+			name = Release;
+		};
+		0828F3998FEA47B0969E2ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		1711F9BD9B8C4A77B1169C5F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		20516CB41653476C96755747 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		2337FEA064794FFFB3B557F8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		31C3E189CFDB43559C5FE0AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		371D90646CFF43FD94A25AB5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		3E4D7D3127C7453A9CC58DB5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		5C7D73D7C86141EA870AE7C7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5FD66341F9F84621B13F4137 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		708C51ABF02D4D17BC0378F3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build/build";
+			};
+			name = MinSizeRel;
+		};
+		7FDDAB1228444A5DA418D2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build/build";
+			};
+			name = Debug;
+		};
+		A4E6B55ECC3C441986C33AEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		AC6CD0023AA447A0B47A5BC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		ADB3DACAFC57451AB16F91C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		B37AA7158F8F4854B3D2A67B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		D140AAEFB3A94B828D6D7547 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		F1E8FB9A33954207921DF92C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "test_protein-translation";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F5EAE618BC2C4D6ABBE8AAAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/viraltaco/code/code/Exercism/cpp/protein-translation/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B19CE9471C244C38745AAF3 /* Build configuration list for PBXAggregateTarget "test_protein-translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1E8FB9A33954207921DF92C /* Debug */,
+				AC6CD0023AA447A0B47A5BC6 /* Release */,
+				20516CB41653476C96755747 /* MinSizeRel */,
+				371D90646CFF43FD94A25AB5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		410151DB953144D68941E16A /* Build configuration list for PBXProject "protein-translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FDDAB1228444A5DA418D2E6 /* Debug */,
+				07EE4A5260064056A3B85E4C /* Release */,
+				708C51ABF02D4D17BC0378F3 /* MinSizeRel */,
+				2337FEA064794FFFB3B557F8 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5D1D05CD4BC47EF92D72DB0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31C3E189CFDB43559C5FE0AB /* Debug */,
+				A4E6B55ECC3C441986C33AEE /* Release */,
+				5C7D73D7C86141EA870AE7C7 /* MinSizeRel */,
+				3E4D7D3127C7453A9CC58DB5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E15CCF15E6934190A0E58FC9 /* Build configuration list for PBXNativeTarget "protein-translation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0828F3998FEA47B0969E2ED2 /* Debug */,
+				D140AAEFB3A94B828D6D7547 /* Release */,
+				5FD66341F9F84621B13F4137 /* MinSizeRel */,
+				03A667825553449D9D87A4D7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F0EA10C8C5EB47BD84C486D6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5EAE618BC2C4D6ABBE8AAAC /* Debug */,
+				ADB3DACAFC57451AB16F91C4 /* Release */,
+				B37AA7158F8F4854B3D2A67B /* MinSizeRel */,
+				1711F9BD9B8C4A77B1169C5F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 374EAEB04FDA4033994F4C60 /* Project object */;
+}

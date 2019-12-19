@@ -1,9 +1,7 @@
 #ifndef VT_TRIANGLE_H
 #define VT_TRIANGLE_H
 
-#ifndef EXERCISM_RUN_ALL_TESTS
-#define EXERCISM_RUN_ALL_TESTS
-#endif
+#define EXERCISM_RUN_ALL_TESTS true
 
 #include <stdexcept>
 
@@ -11,24 +9,22 @@ namespace triangle {
 
 enum class flavor: int { equilateral, isosceles, scalene };
 
-template <typename T> flavor
-kind(const T a, const T b, const T side_c) {
+template <typename Side> 
+flavor kind(const Side a, const Side b, const Side c) {
   /**
    *  Triangle inequality:
-   *  For any triangle, the sum of the lengths of any two sides must be
-   *  greater than or equal to the length of the remaining side.
+   *  For any triangle, the sum of the lengths of any two sides
+   *  must be GREATER THAN the length of the remaining side.
    */
-  if (a >= b + side_c
-  or  b >= a + side_c
-  or  side_c >= a + b) {
+  if (a + b <= c or b + c <= a or a + c <= b) {
     throw std::domain_error("Degenerate triangle or not a triangle.");
-  } else if (a <= 0 or b <= 0 or side_c <= 0) {
-    throw std::domain_error("A triangle cannot have sides of length <= 0.");
+  } else if (a <= 0 or b <= 0 or c <= 0) {
+    throw std::domain_error("A triangle must have sides with length > 0.");
   }
 
-  if (a == b and b == side_c) {
+  if (a == b and b == c) {
     return flavor::equilateral;
-  } else if (a == b or a == side_c or b == side_c) {
+  } else if (a == b or a == c or b == c) {
     return flavor::isosceles;
   }
 
@@ -37,4 +33,4 @@ kind(const T a, const T b, const T side_c) {
 
 } // namespace triangle
 
-#endif // VT_TRIANGLE_G (header guard)
+#endif // VT_TRIANGLE_H (header guard)

@@ -1,0 +1,4 @@
+/Users/viraltaco/code/code/Exercism/cpp/meetup/build/CMakeFiles/test_meetup.dir
+/Users/viraltaco/code/code/Exercism/cpp/meetup/build/CMakeFiles/meetup.dir
+/Users/viraltaco/code/code/Exercism/cpp/meetup/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/code/Exercism/cpp/meetup/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,4 +1,4 @@
-/Users/viraltaco/code/Exercism/cpp/reverse-string/build/CMakeFiles/test_reverse-string.dir
-/Users/viraltaco/code/Exercism/cpp/reverse-string/build/CMakeFiles/reverse-string.dir
-/Users/viraltaco/code/Exercism/cpp/reverse-string/build/CMakeFiles/ALL_BUILD.dir
-/Users/viraltaco/code/Exercism/cpp/reverse-string/build/CMakeFiles/ZERO_CHECK.dir
+/Users/viraltaco/code/code/Exercism/cpp/reverse-string/build/CMakeFiles/test_reverse-string.dir
+/Users/viraltaco/code/code/Exercism/cpp/reverse-string/build/CMakeFiles/reverse-string.dir
+/Users/viraltaco/code/code/Exercism/cpp/reverse-string/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/code/code/Exercism/cpp/reverse-string/build/CMakeFiles/ZERO_CHECK.dir

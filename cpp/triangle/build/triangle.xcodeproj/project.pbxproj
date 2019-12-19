@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1BF4E6CDD5EE4F78934AEE4A /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E83DECA8D4654B91AD35D776 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				0F6EC9672B5449D08F940C8D /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		A16EA04FA8F94FAEA38938B2 /* test_triangle */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FBD545EF7CB14287928731AB /* Build configuration list for PBXAggregateTarget "test_triangle" */;
+			buildPhases = (
+				6D742BBE08DA436282CFB9B1 /* CMake Rules */,
+			);
+			dependencies = (
+				E595B1D3AF75481DBFC9AE58 /* PBXTargetDependency */,
+				895634E9B70D4F41ADF19DE3 /* PBXTargetDependency */,
+			);
+			name = test_triangle;
+			productName = test_triangle;
+		};
+		CD5C5BE212A84CA385B5BC0F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 975F8D7E3BF84D79AC9D46DB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3BB1DFECC1644888832C46B0 /* CMake Rules */,
+			);
+			dependencies = (
+				20E68F7EEB5E445E94EE4806 /* PBXTargetDependency */,
+				6FE7CDA1357343829E328AF2 /* PBXTargetDependency */,
+				FA5697314E0D4234B76E8A01 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13B8BB30987A4361BA69EF8F /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.cpp */ = {isa = PBXBuildFile; fileRef = 03E52DA59ADF40CE8357B7CE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.cpp */; };
+		1892A746113A426A810C9ED3 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle_test.cpp */ = {isa = PBXBuildFile; fileRef = 6D5DA17B9064454FB6D3C054 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle_test.cpp */; };
+		3A8448EC8C854C0A971B9BAE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.h */ = {isa = PBXBuildFile; fileRef = 6103587EB1B44590AD95C740 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.h */; };
+		7C7116A44F434FE48471CC92 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 65C154D1C91944B7BE58534A /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */; };
+		8C1CB57B6D44409D8F117DD6 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = AAA06FA630894A20BD98E767 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/test/tests-main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		1A74FB0EABA340D1AD9A1462 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		35CE15D427EB4A69BE1B81AB /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C8CD6D6237B0438C8E66D883 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		F5219FF2F1234F9B810F8FAD /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		04AF617D5D0048D09A04200B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA5E711FCD74A5CB533FC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9490DF610F2C4C63BF203861;
+			remoteInfo = triangle;
+		};
+		341EF96298524AB29D01DCC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA5E711FCD74A5CB533FC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A16EA04FA8F94FAEA38938B2;
+			remoteInfo = test_triangle;
+		};
+		8404610F51724D14B68A63CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA5E711FCD74A5CB533FC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF4E6CDD5EE4F78934AEE4A;
+			remoteInfo = ZERO_CHECK;
+		};
+		B0782559603E4B12A13140A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA5E711FCD74A5CB533FC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF4E6CDD5EE4F78934AEE4A;
+			remoteInfo = ZERO_CHECK;
+		};
+		B6C552C652AD4653BE813769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA5E711FCD74A5CB533FC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9490DF610F2C4C63BF203861;
+			remoteInfo = triangle;
+		};
+		E5FFE7DFCE2C4F4FBD614F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA5E711FCD74A5CB533FC3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1BF4E6CDD5EE4F78934AEE4A;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E52DA59ADF40CE8357B7CE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangle.cpp; path = triangle.cpp; sourceTree = SOURCE_ROOT; };
+		442303AFB45D40B4930CEBD2 /* triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = triangle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6103587EB1B44590AD95C740 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = triangle.h; path = triangle.h; sourceTree = SOURCE_ROOT; };
+		65C154D1C91944B7BE58534A /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		6D5DA17B9064454FB6D3C054 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = triangle_test.cpp; path = triangle_test.cpp; sourceTree = SOURCE_ROOT; };
+		AAA06FA630894A20BD98E767 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		CF24F6C6A8C744CD94CF43DE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F742983016054FD0AD23DAB3 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		01D99D9680DE487288B1E0A3 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B595BD5A1D5842FEB4155BE7 /* CMake Rules */,
+				F742983016054FD0AD23DAB3 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		2A839EB3902148AFB2EEC28C = {
+			isa = PBXGroup;
+			children = (
+				4CA577A4C4A04BAEB5DAB39F /* test_triangle */,
+				DF84AC0E12894B87A5E4252D /* triangle */,
+				01D99D9680DE487288B1E0A3 /* ALL_BUILD */,
+				BB645FBA64BA47049BA18A71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA577A4C4A04BAEB5DAB39F /* test_triangle */ = {
+			isa = PBXGroup;
+			children = (
+				7E4A83C2162F42B9860CB612 /* CMake Rules */,
+				CF24F6C6A8C744CD94CF43DE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */,
+			);
+			name = test_triangle;
+			sourceTree = "<group>";
+		};
+		532AEF992AFA453D8F609B43 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAA06FA630894A20BD98E767 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/test/tests-main.cpp */,
+				03E52DA59ADF40CE8357B7CE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.cpp */,
+				6D5DA17B9064454FB6D3C054 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle_test.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		7E4A83C2162F42B9860CB612 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B595BD5A1D5842FEB4155BE7 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		BB645FBA64BA47049BA18A71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				442303AFB45D40B4930CEBD2 /* triangle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF84AC0E12894B87A5E4252D /* triangle */ = {
+			isa = PBXGroup;
+			children = (
+				532AEF992AFA453D8F609B43 /* Source Files */,
+				EF81BAD40C254E2996803103 /* Header Files */,
+				65C154D1C91944B7BE58534A /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/CMakeLists.txt */,
+			);
+			name = triangle;
+			sourceTree = "<group>";
+		};
+		EF81BAD40C254E2996803103 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				6103587EB1B44590AD95C740 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9490DF610F2C4C63BF203861 /* triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17167AFE944469DB68C900B /* Build configuration list for PBXNativeTarget "triangle" */;
+			buildPhases = (
+				16083FADA20B4CB79DE5C232 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				340D7DCCA726410C9E6D3F83 /* PBXTargetDependency */,
+			);
+			name = triangle;
+			productName = triangle;
+			productReference = 442303AFB45D40B4930CEBD2 /* triangle */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFA5E711FCD74A5CB533FC3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1110;
+			};
+			buildConfigurationList = 9F8867F747D8486EAA62446F /* Build configuration list for PBXProject "triangle" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				35CE15D427EB4A69BE1B81AB /* Debug */,
+				F5219FF2F1234F9B810F8FAD /* Release */,
+				C8CD6D6237B0438C8E66D883 /* MinSizeRel */,
+				1A74FB0EABA340D1AD9A1462 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 2A839EB3902148AFB2EEC28C;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				CD5C5BE212A84CA385B5BC0F /* ALL_BUILD */,
+				1BF4E6CDD5EE4F78934AEE4A /* ZERO_CHECK */,
+				A16EA04FA8F94FAEA38938B2 /* test_triangle */,
+				9490DF610F2C4C63BF203861 /* triangle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B1B1813534240F1ADB5E031 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		0F6EC9672B5449D08F940C8D /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		3BB1DFECC1644888832C46B0 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		62B2C328C4A94395A5F50309 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		6D742BBE08DA436282CFB9B1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/CMakeScripts/test_triangle_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		FC7D0BB6F21E48DBABEFD7CD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16083FADA20B4CB79DE5C232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C1CB57B6D44409D8F117DD6 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/test/tests-main.cpp */,
+				13B8BB30987A4361BA69EF8F /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle.cpp */,
+				1892A746113A426A810C9ED3 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/triangle_test.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20E68F7EEB5E445E94EE4806 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9490DF610F2C4C63BF203861 /* triangle */;
+			targetProxy = 04AF617D5D0048D09A04200B /* PBXContainerItemProxy */;
+		};
+		340D7DCCA726410C9E6D3F83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF4E6CDD5EE4F78934AEE4A /* ZERO_CHECK */;
+			targetProxy = E5FFE7DFCE2C4F4FBD614F46 /* PBXContainerItemProxy */;
+		};
+		6FE7CDA1357343829E328AF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF4E6CDD5EE4F78934AEE4A /* ZERO_CHECK */;
+			targetProxy = B0782559603E4B12A13140A2 /* PBXContainerItemProxy */;
+		};
+		895634E9B70D4F41ADF19DE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1BF4E6CDD5EE4F78934AEE4A /* ZERO_CHECK */;
+			targetProxy = 8404610F51724D14B68A63CE /* PBXContainerItemProxy */;
+		};
+		E595B1D3AF75481DBFC9AE58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9490DF610F2C4C63BF203861 /* triangle */;
+			targetProxy = B6C552C652AD4653BE813769 /* PBXContainerItemProxy */;
+		};
+		FA5697314E0D4234B76E8A01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A16EA04FA8F94FAEA38938B2 /* test_triangle */;
+			targetProxy = 341EF96298524AB29D01DCC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A062EDE6B4544E18B898069 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1C2B0AD64A204262B02776AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		2A9B02794F1B4D74A194E4CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2BF78049DCC24CB58A0801CC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		322956D2F5144FABA5425EC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		491EC5B5719C4285A35AA9C1 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		4B448BC6107F454B881F9D70 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		54295B19AB774604AD326D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		5D2D8E948EDE4F37874D1FD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/build;
+			};
+			name = Release;
+		};
+		5FB76DC3DDCF4B99A87C5AD3 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++14'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6E4B7ABCD2EE4199B09193CC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		89DE99F1E1E1473A8ED07D47 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		98D5A077316B4FBF81345F6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		9D090FD6238E406A8E02721C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		BB4D5F0DFA774FCDBDBC7243 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/build;
+			};
+			name = Debug;
+		};
+		BFB15EB338E548A295CDD6E5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_triangle;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		C4137FC737C742FD86149AF2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/build;
+			};
+			name = MinSizeRel;
+		};
+		D0BEAA51F68443E3A9C01F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		DCDAB8C18406451A94E27E41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		F7E98FF1205648FD94451155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		975F8D7E3BF84D79AC9D46DB /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCDAB8C18406451A94E27E41 /* Debug */,
+				D0BEAA51F68443E3A9C01F86 /* Release */,
+				1A062EDE6B4544E18B898069 /* MinSizeRel */,
+				89DE99F1E1E1473A8ED07D47 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F8867F747D8486EAA62446F /* Build configuration list for PBXProject "triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB4D5F0DFA774FCDBDBC7243 /* Debug */,
+				5D2D8E948EDE4F37874D1FD0 /* Release */,
+				C4137FC737C742FD86149AF2 /* MinSizeRel */,
+				491EC5B5719C4285A35AA9C1 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E17167AFE944469DB68C900B /* Build configuration list for PBXNativeTarget "triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54295B19AB774604AD326D69 /* Debug */,
+				322956D2F5144FABA5425EC4 /* Release */,
+				5FB76DC3DDCF4B99A87C5AD3 /* MinSizeRel */,
+				2BF78049DCC24CB58A0801CC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E83DECA8D4654B91AD35D776 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98D5A077316B4FBF81345F6B /* Debug */,
+				F7E98FF1205648FD94451155 /* Release */,
+				9D090FD6238E406A8E02721C /* MinSizeRel */,
+				6E4B7ABCD2EE4199B09193CC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FBD545EF7CB14287928731AB /* Build configuration list for PBXAggregateTarget "test_triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C2B0AD64A204262B02776AE /* Debug */,
+				2A9B02794F1B4D74A194E4CC /* Release */,
+				4B448BC6107F454B881F9D70 /* MinSizeRel */,
+				BFB15EB338E548A295CDD6E5 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFA5E711FCD74A5CB533FC3B /* Project object */;
+}

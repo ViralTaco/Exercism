@@ -1,2 +1,3 @@
-dependencies: /Users/viraltaco/code/Exercism/cpp/pangram/pangram.cpp \
-  /Users/viraltaco/code/Exercism/cpp/pangram/pangram.h
+dependencies: \
+  /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.cpp \
+  /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.h

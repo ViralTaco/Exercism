@@ -1,6 +1,6 @@
 package greeting
 
-// HelloWorld returns the string "Hello, World!"
+// HelloWorld has a comment documenting it.
 func HelloWorld() string {
 	return "Hello, World!"
 }

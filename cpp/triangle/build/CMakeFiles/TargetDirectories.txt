@@ -1,0 +1,4 @@
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/CMakeFiles/test_triangle.dir
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/CMakeFiles/triangle.dir
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/CMakeFiles/ALL_BUILD.dir
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/triangle/build/CMakeFiles/ZERO_CHECK.dir

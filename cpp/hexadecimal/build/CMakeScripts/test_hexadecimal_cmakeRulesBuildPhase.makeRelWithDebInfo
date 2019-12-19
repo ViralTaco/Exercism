@@ -2,10 +2,10 @@
 # Custom rules for test_hexadecimal
 .SUFFIXES: 
 all: \
-	/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/CMakeFiles/test_hexadecimal
+	/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/CMakeFiles/test_hexadecimal
 
 
-/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/CMakeFiles/test_hexadecimal: \
-/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal
+/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/CMakeFiles/test_hexadecimal: \
+/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal
 	echo ""
-	/Users/viraltaco/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal
+	/Users/viraltaco/code/code/Exercism/cpp/hexadecimal/build/RelWithDebInfo/hexadecimal

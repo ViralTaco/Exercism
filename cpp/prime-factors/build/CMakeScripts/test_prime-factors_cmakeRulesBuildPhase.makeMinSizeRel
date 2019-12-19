@@ -2,10 +2,10 @@
 # Custom rules for test_prime-factors
 .SUFFIXES: 
 all: \
-	/Users/viraltaco/code/Exercism/cpp/prime-factors/build/CMakeFiles/test_prime-factors
+	/Users/viraltaco/Desktop/projects/code/Exercism/cpp/prime-factors/build/CMakeFiles/test_prime-factors
 
 
-/Users/viraltaco/code/Exercism/cpp/prime-factors/build/CMakeFiles/test_prime-factors: \
-/Users/viraltaco/code/Exercism/cpp/prime-factors/build/MinSizeRel/prime-factors
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/prime-factors/build/CMakeFiles/test_prime-factors: \
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/prime-factors/build/MinSizeRel/prime-factors
 	echo ""
-	/Users/viraltaco/code/Exercism/cpp/prime-factors/build/MinSizeRel/prime-factors
+	/Users/viraltaco/Desktop/projects/code/Exercism/cpp/prime-factors/build/MinSizeRel/prime-factors

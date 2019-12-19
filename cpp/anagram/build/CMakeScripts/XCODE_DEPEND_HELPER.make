@@ -8,23 +8,23 @@ default:
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
 PostBuild.anagram.Debug:
-/Users/viraltaco/code/code/Exercism/cpp/anagram/build/Debug/anagram:
-	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/anagram/build/Debug/anagram
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/Debug/anagram:
+	/bin/rm -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/Debug/anagram
 
 
 PostBuild.anagram.Release:
-/Users/viraltaco/code/code/Exercism/cpp/anagram/build/Release/anagram:
-	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/anagram/build/Release/anagram
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/Release/anagram:
+	/bin/rm -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/Release/anagram
 
 
 PostBuild.anagram.MinSizeRel:
-/Users/viraltaco/code/code/Exercism/cpp/anagram/build/MinSizeRel/anagram:
-	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/anagram/build/MinSizeRel/anagram
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/MinSizeRel/anagram:
+	/bin/rm -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/MinSizeRel/anagram
 
 
 PostBuild.anagram.RelWithDebInfo:
-/Users/viraltaco/code/code/Exercism/cpp/anagram/build/RelWithDebInfo/anagram:
-	/bin/rm -f /Users/viraltaco/code/code/Exercism/cpp/anagram/build/RelWithDebInfo/anagram
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/RelWithDebInfo/anagram:
+	/bin/rm -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/anagram/build/RelWithDebInfo/anagram
 
 
 

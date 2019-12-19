@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		04406CFD941F4BFAA9F744F9 /* ZERO_CHECK */ = {
+		B7E6ABBB79024FC1B06DA873 /* test_pangram */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B714E53B36BC4926A7ED061A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 36D0122694824ED488F00A99 /* Build configuration list for PBXAggregateTarget "test_pangram" */;
 			buildPhases = (
-				C33DC1887CBB42A1AAC5974B /* CMake Rules */,
+				EB2D116494544241A95861C7 /* CMake Rules */,
+			);
+			dependencies = (
+				69F28E3263BC49158893C89A /* PBXTargetDependency */,
+				229376A9F52741B988632CD6 /* PBXTargetDependency */,
+			);
+			name = test_pangram;
+			productName = test_pangram;
+		};
+		DD3E47E52B0943B5AC1675AC /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0B9B339738CA4F6B982281C9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				1774E30B2F43402BB7E4026C /* CMake Rules */,
 			);
 			dependencies = (
 			);
 			name = ZERO_CHECK;
 			productName = ZERO_CHECK;
 		};
-		3D6B51199E1745ABAA522D51 /* test_pangram */ = {
+		F66A2C75B4494BB9A4991D0D /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = F7310857E0684B5881FEA9F7 /* Build configuration list for PBXAggregateTarget "test_pangram" */;
+			buildConfigurationList = 83847F04F2184F3FAA448C50 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				6A003A41C9DD48C1B052918F /* CMake Rules */,
+				1CE9838488E9443D8C01C97D /* CMake Rules */,
 			);
 			dependencies = (
-				D2785E31B6854776AB0DABFC /* PBXTargetDependency */,
-				C565B980885A4374AB52336D /* PBXTargetDependency */,
-			);
-			name = test_pangram;
-			productName = test_pangram;
-		};
-		9FEFC9C4F47B496A846728EF /* ALL_BUILD */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = E24D8C6012934734A599AC32 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
-			buildPhases = (
-				A50991CF233C4CCBAC131CE2 /* CMake Rules */,
-			);
-			dependencies = (
-				3E39E10BFD0C4FFC8659B8E6 /* PBXTargetDependency */,
-				637FC75F24B84BE48D1AE9FA /* PBXTargetDependency */,
-				1CC6DA4CF4A64631BC29A243 /* PBXTargetDependency */,
+				E404F0EEAF4443DBBDE0051B /* PBXTargetDependency */,
+				BBE97E004C0548AB88E86F52 /* PBXTargetDependency */,
+				ACF379A87FA64922B40755F1 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -48,192 +48,232 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		4899772E6EF54C76B17166ED /* pangram_test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 429572B87E5F403095B92E62 /* pangram_test.cpp */; };
-		D8A807312204895600F14E6B /* pangram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A807302204892E00F14E6B /* pangram.cpp */; };
+		61A15408160B47D28BBF60FA /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.h */ = {isa = PBXBuildFile; fileRef = B53338FB3E12484F8CDE46E9 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.h */; };
+		67B6076FEDD44548A5683DDF /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C17294B3D5864E5D9CAEB7EE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */; };
+		924BA91CA4694E3A9F001C2C /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.cpp */ = {isa = PBXBuildFile; fileRef = 3A4B4E8760AC4596BB098DD2 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.cpp */; };
+		BF174DD885CF440EBC48C718 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram_test.cpp */ = {isa = PBXBuildFile; fileRef = 6F1897700618464582586E98 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram_test.cpp */; };
+		C1F5E687A6AC4585A084264B /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/test/tests-main.cpp */ = {isa = PBXBuildFile; fileRef = 99DE85775D144679852DC9FC /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/test/tests-main.cpp */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXBuildStyle section */
+		187781C901244DFA91DD4AFD /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		BE3FF754A64941078A3C960E /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E1E6E9AE825946B0928DA8AC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		F2BC0EB9623946D8B47875A1 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
 /* Begin PBXContainerItemProxy section */
-		0831DA72F7184A6DB1C28D99 /* PBXContainerItemProxy */ = {
+		11DC7DB1942543E09A3DEE29 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BC5F759661264C5AACFBDF9E /* Project object */;
+			containerPortal = EEFB0A1C0C9945D596E18929 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3D6B51199E1745ABAA522D51;
+			remoteGlobalIDString = DD3E47E52B0943B5AC1675AC;
+			remoteInfo = ZERO_CHECK;
+		};
+		5D2C0B84350443F395EDA03A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFB0A1C0C9945D596E18929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3E47E52B0943B5AC1675AC;
+			remoteInfo = ZERO_CHECK;
+		};
+		6401E354F04F4341A2A9BA76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFB0A1C0C9945D596E18929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7E6ABBB79024FC1B06DA873;
 			remoteInfo = test_pangram;
 		};
-		1D0863507E954B8EA00CCC0A /* PBXContainerItemProxy */ = {
+		6416F5B24F83430B999DA398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BC5F759661264C5AACFBDF9E /* Project object */;
+			containerPortal = EEFB0A1C0C9945D596E18929 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 67C9B4F5D4AF43A1BF38C49A;
+			remoteGlobalIDString = 97EA2969FF894FF5A89DB999;
 			remoteInfo = pangram;
 		};
-		23545532431E4906894C63D6 /* PBXContainerItemProxy */ = {
+		85BCF2ADD2F7492AB0A2DCDB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BC5F759661264C5AACFBDF9E /* Project object */;
+			containerPortal = EEFB0A1C0C9945D596E18929 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 04406CFD941F4BFAA9F744F9;
-			remoteInfo = ZERO_CHECK;
-		};
-		82BAA86B59DB4620A1668459 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC5F759661264C5AACFBDF9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04406CFD941F4BFAA9F744F9;
-			remoteInfo = ZERO_CHECK;
-		};
-		8DDA81C2770744A5A18E7015 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC5F759661264C5AACFBDF9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 04406CFD941F4BFAA9F744F9;
-			remoteInfo = ZERO_CHECK;
-		};
-		963C681D0ACB4695A742A8AD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BC5F759661264C5AACFBDF9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 67C9B4F5D4AF43A1BF38C49A;
+			remoteGlobalIDString = 97EA2969FF894FF5A89DB999;
 			remoteInfo = pangram;
+		};
+		BE3012E54D364633BB3C8928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFB0A1C0C9945D596E18929 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD3E47E52B0943B5AC1675AC;
+			remoteInfo = ZERO_CHECK;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		429572B87E5F403095B92E62 /* pangram_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = pangram_test.cpp; sourceTree = SOURCE_ROOT; };
-		42E9D56BF35C491C928B86FA /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		76B266134458499FB7FB1C90 /* pangram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = pangram; sourceTree = BUILT_PRODUCTS_DIR; };
-		77D50B624D1B4926889887E1 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		9B8F0350245E408EB9073161 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A1C61A7E32C14CCAA45CBE63 /* pangram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = pangram.h; sourceTree = SOURCE_ROOT; };
-		D8A807302204892E00F14E6B /* pangram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pangram.cpp; sourceTree = "<group>"; };
+		3061A97073E44763AD5995AC /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3A4B4E8760AC4596BB098DD2 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pangram.cpp; path = pangram.cpp; sourceTree = SOURCE_ROOT; };
+		6F1897700618464582586E98 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram_test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pangram_test.cpp; path = pangram_test.cpp; sourceTree = SOURCE_ROOT; };
+		99DE85775D144679852DC9FC /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/test/tests-main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = "tests-main.cpp"; path = "test/tests-main.cpp"; sourceTree = SOURCE_ROOT; };
+		B53338FB3E12484F8CDE46E9 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pangram.h; path = pangram.h; sourceTree = SOURCE_ROOT; };
+		B64721E4E3ED448DB673E016 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		C17294B3D5864E5D9CAEB7EE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		F2207A2490A44A949073BDB5 /* pangram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = pangram; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		26BB066DBFCA47DEB105FFAD /* Products */ = {
+		345E4D5F0DF74C2197625B87 /* Header Files */ = {
 			isa = PBXGroup;
 			children = (
-				76B266134458499FB7FB1C90 /* pangram */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		31678E9F0915409A9972F4F7 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				877F87F3703A4B4EBC6D0FFE /* CMake Rules */,
-				42E9D56BF35C491C928B86FA /* CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		5D425F6E2D0145B6A1949B61 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		7B844F31684B4277A95576DE /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				429572B87E5F403095B92E62 /* pangram_test.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		877F87F3703A4B4EBC6D0FFE /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		87E7C2EFBDFD4CEFBD8637F8 = {
-			isa = PBXGroup;
-			children = (
-				982C918E31784D0CB1BED331 /* test_pangram */,
-				8A001561DC244CCD848A4CF5 /* pangram */,
-				31678E9F0915409A9972F4F7 /* ALL_BUILD */,
-				26BB066DBFCA47DEB105FFAD /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		8A001561DC244CCD848A4CF5 /* pangram */ = {
-			isa = PBXGroup;
-			children = (
-				7B844F31684B4277A95576DE /* Source Files */,
-				8EBE9472B4694E0D8B92B9A9 /* Header Files */,
-				77D50B624D1B4926889887E1 /* CMakeLists.txt */,
-			);
-			name = pangram;
-			sourceTree = "<group>";
-		};
-		8EBE9472B4694E0D8B92B9A9 /* Header Files */ = {
-			isa = PBXGroup;
-			children = (
-				D8A807302204892E00F14E6B /* pangram.cpp */,
-				A1C61A7E32C14CCAA45CBE63 /* pangram.h */,
+				B53338FB3E12484F8CDE46E9 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.h */,
 			);
 			name = "Header Files";
 			sourceTree = "<group>";
 		};
-		982C918E31784D0CB1BED331 /* test_pangram */ = {
+		55E53D647792421490378FA4 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D425F6E2D0145B6A1949B61 /* CMake Rules */,
-				9B8F0350245E408EB9073161 /* CMakeLists.txt */,
+				3A4B4E8760AC4596BB098DD2 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.cpp */,
+				6F1897700618464582586E98 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram_test.cpp */,
+				99DE85775D144679852DC9FC /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/test/tests-main.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		5DED987F040D486E8BB1B26C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		85511C9FCD094EB2B6987372 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B432CA79972440D9844D3386 /* test_pangram */ = {
+			isa = PBXGroup;
+			children = (
+				5DED987F040D486E8BB1B26C /* CMake Rules */,
+				B64721E4E3ED448DB673E016 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */,
 			);
 			name = test_pangram;
+			sourceTree = "<group>";
+		};
+		CA5DA889996E4BB5911E100E /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				85511C9FCD094EB2B6987372 /* CMake Rules */,
+				3061A97073E44763AD5995AC /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		D26138CF943B4E338C49D2E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2207A2490A44A949073BDB5 /* pangram */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0B8078142424081A2209BF1 = {
+			isa = PBXGroup;
+			children = (
+				B432CA79972440D9844D3386 /* test_pangram */,
+				F4954281CB514E9F8FF3483D /* pangram */,
+				CA5DA889996E4BB5911E100E /* ALL_BUILD */,
+				D26138CF943B4E338C49D2E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4954281CB514E9F8FF3483D /* pangram */ = {
+			isa = PBXGroup;
+			children = (
+				55E53D647792421490378FA4 /* Source Files */,
+				345E4D5F0DF74C2197625B87 /* Header Files */,
+				C17294B3D5864E5D9CAEB7EE /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/CMakeLists.txt */,
+			);
+			name = pangram;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67C9B4F5D4AF43A1BF38C49A /* pangram */ = {
+		97EA2969FF894FF5A89DB999 /* pangram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 605916FE083047FCB4CC8B0D /* Build configuration list for PBXNativeTarget "pangram" */;
+			buildConfigurationList = AF09629DC10A4A1E95197AA9 /* Build configuration list for PBXNativeTarget "pangram" */;
 			buildPhases = (
-				04593C3F68BC4935802D8500 /* Sources */,
+				95903F0FB0FC46389CB3CA8E /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64145B6097E64E89AAE82FFE /* PBXTargetDependency */,
+				9CFF0F319A614CD388ED0A13 /* PBXTargetDependency */,
 			);
 			name = pangram;
 			productName = pangram;
-			productReference = 76B266134458499FB7FB1C90 /* pangram */;
+			productReference = F2207A2490A44A949073BDB5 /* pangram */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC5F759661264C5AACFBDF9E /* Project object */ = {
+		EEFB0A1C0C9945D596E18929 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
-				LastUpgradeCheck = 1010;
+				LastUpgradeCheck = 1120;
 			};
-			buildConfigurationList = 1C4AABAA6F32420391C4E120 /* Build configuration list for PBXProject "pangram" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = en;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
+			buildConfigurationList = B70E869D800A4D3CA6773CC0 /* Build configuration list for PBXProject "pangram" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				E1E6E9AE825946B0928DA8AC /* Debug */,
+				F2BC0EB9623946D8B47875A1 /* Release */,
+				BE3FF754A64941078A3C960E /* MinSizeRel */,
+				187781C901244DFA91DD4AFD /* RelWithDebInfo */,
 			);
-			mainGroup = 87E7C2EFBDFD4CEFBD8637F8;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = E0B8078142424081A2209BF1;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
-				9FEFC9C4F47B496A846728EF /* ALL_BUILD */,
-				04406CFD941F4BFAA9F744F9 /* ZERO_CHECK */,
-				67C9B4F5D4AF43A1BF38C49A /* pangram */,
-				3D6B51199E1745ABAA522D51 /* test_pangram */,
+				F66A2C75B4494BB9A4991D0D /* ALL_BUILD */,
+				DD3E47E52B0943B5AC1675AC /* ZERO_CHECK */,
+				97EA2969FF894FF5A89DB999 /* pangram */,
+				B7E6ABBB79024FC1B06DA873 /* test_pangram */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6A003A41C9DD48C1B052918F /* CMake Rules */ = {
+		1774E30B2F43402BB7E4026C /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -241,10 +281,10 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/pangram/build -f /Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeScripts/test_pangram_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		A50991CF233C4CCBAC131CE2 /* CMake Rules */ = {
+		1CE9838488E9443D8C01C97D /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,10 +292,55 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/pangram/build -f /Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
-		C33DC1887CBB42A1AAC5974B /* CMake Rules */ = {
+		21BEC2B417674D0BB954EBFB = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		54CC9953139D4EB1A411ED57 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		5F073B48FB56490E93984439 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		EB2D116494544241A95861C7 /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,83 +348,79 @@
 			name = "CMake Rules";
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "make -C /Users/viraltaco/code/Exercism/cpp/pangram/build -f /Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			shellScript = "make -C /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build -f /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/CMakeScripts/test_pangram_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		04593C3F68BC4935802D8500 /* Sources */ = {
+		95903F0FB0FC46389CB3CA8E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8A807312204895600F14E6B /* pangram.cpp in Sources */,
-				4899772E6EF54C76B17166ED /* pangram_test.cpp in Sources */,
+				924BA91CA4694E3A9F001C2C /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram.cpp */,
+				BF174DD885CF440EBC48C718 /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/pangram_test.cpp */,
+				C1F5E687A6AC4585A084264B /* /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/test/tests-main.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1CC6DA4CF4A64631BC29A243 /* PBXTargetDependency */ = {
+		229376A9F52741B988632CD6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67C9B4F5D4AF43A1BF38C49A /* pangram */;
-			targetProxy = 963C681D0ACB4695A742A8AD /* PBXContainerItemProxy */;
+			target = DD3E47E52B0943B5AC1675AC /* ZERO_CHECK */;
+			targetProxy = BE3012E54D364633BB3C8928 /* PBXContainerItemProxy */;
 		};
-		3E39E10BFD0C4FFC8659B8E6 /* PBXTargetDependency */ = {
+		69F28E3263BC49158893C89A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04406CFD941F4BFAA9F744F9 /* ZERO_CHECK */;
-			targetProxy = 8DDA81C2770744A5A18E7015 /* PBXContainerItemProxy */;
+			target = 97EA2969FF894FF5A89DB999 /* pangram */;
+			targetProxy = 85BCF2ADD2F7492AB0A2DCDB /* PBXContainerItemProxy */;
 		};
-		637FC75F24B84BE48D1AE9FA /* PBXTargetDependency */ = {
+		9CFF0F319A614CD388ED0A13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3D6B51199E1745ABAA522D51 /* test_pangram */;
-			targetProxy = 0831DA72F7184A6DB1C28D99 /* PBXContainerItemProxy */;
+			target = DD3E47E52B0943B5AC1675AC /* ZERO_CHECK */;
+			targetProxy = 11DC7DB1942543E09A3DEE29 /* PBXContainerItemProxy */;
 		};
-		64145B6097E64E89AAE82FFE /* PBXTargetDependency */ = {
+		ACF379A87FA64922B40755F1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04406CFD941F4BFAA9F744F9 /* ZERO_CHECK */;
-			targetProxy = 82BAA86B59DB4620A1668459 /* PBXContainerItemProxy */;
+			target = B7E6ABBB79024FC1B06DA873 /* test_pangram */;
+			targetProxy = 6401E354F04F4341A2A9BA76 /* PBXContainerItemProxy */;
 		};
-		C565B980885A4374AB52336D /* PBXTargetDependency */ = {
+		BBE97E004C0548AB88E86F52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67C9B4F5D4AF43A1BF38C49A /* pangram */;
-			targetProxy = 1D0863507E954B8EA00CCC0A /* PBXContainerItemProxy */;
+			target = DD3E47E52B0943B5AC1675AC /* ZERO_CHECK */;
+			targetProxy = 5D2C0B84350443F395EDA03A /* PBXContainerItemProxy */;
 		};
-		D2785E31B6854776AB0DABFC /* PBXTargetDependency */ = {
+		E404F0EEAF4443DBBDE0051B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 04406CFD941F4BFAA9F744F9 /* ZERO_CHECK */;
-			targetProxy = 23545532431E4906894C63D6 /* PBXContainerItemProxy */;
+			target = 97EA2969FF894FF5A89DB999 /* pangram */;
+			targetProxy = 6416F5B24F83430B999DA398 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F3F2BA7DFB74715B7611851 /* Release */ = {
+		0223E482EEA0425F97FC548F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = test_pangram;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Release;
 		};
-		2712EB4BDFD5422A950708DF /* RelWithDebInfo */ = {
+		10A64824D32F465BAB60C304 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -348,67 +429,100 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"-Wall",
-					"-Wextra",
-					"-Wpedantic",
-					"-Werror",
-					"'-std=c++1z'",
-				);
-				OTHER_LDFLAGS = (
-					"-L/usr/local/opt/ncurses/lib",
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/usr/local/lib/libboost_unit_test_framework-mt.a",
-					"/usr/local/lib/libboost_date_time-mt.a",
-					"/usr/local/lib/libboost_regex-mt.a",
-				);
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = pangram;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = RelWithDebInfo;
 		};
-		28D702CD67D842B193EAE54B /* MinSizeRel */ = {
+		179CDF9F75E3465185F537DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		1F0E4B8FAC8F41CB81018423 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_pangram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		212D2638A33E4660B05BB197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/build;
+			};
+			name = Release;
+		};
+		36EA608032754607BF719F68 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_pangram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		2A01208B9316428BAFB04ED7 /* MinSizeRel */ = {
+		45B05EF10D844DB2A96831D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/build;
+			};
+			name = Debug;
+		};
+		487961A54EF6497981956549 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -417,371 +531,71 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"-Wall",
-					"-Wextra",
-					"-Wpedantic",
-					"-Werror",
-					"'-std=c++1z'",
-				);
-				OTHER_LDFLAGS = (
-					"-L/usr/local/opt/ncurses/lib",
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/usr/local/lib/libboost_unit_test_framework-mt.a",
-					"/usr/local/lib/libboost_date_time-mt.a",
-					"/usr/local/lib/libboost_regex-mt.a",
-				);
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = pangram;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		4FA96608DE2E41DD88A9845E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = test_pangram;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		500C1761C6164852B2DDF7F6 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = test_pangram;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		8CF50D3311254A9ABFA70EDD /* Release */ = {
+		4D295F9A53A54BB3A0F156C2 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build/build;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/build;
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		8D7B3AE6B29B4C758FC2BBF4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		962C863A3A7C40B59FB0CF14 /* Debug */ = {
+		598D18AAC943470EB286A466 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Debug;
 		};
-		99A26F9A138048A6A76759E8 /* RelWithDebInfo */ = {
+		711053E3C93B4D128B030C8B /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		9F3D3986EA5B47F99EE6261F /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = RelWithDebInfo;
-		};
-		A2E5B7B6E059404F88B4FD0E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-Wall",
-					"-Wextra",
-					"-Wpedantic",
-					"-Werror",
-					"'-std=c++1z'",
-				);
-				OTHER_LDFLAGS = (
-					"-L/usr/local/opt/ncurses/lib",
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/usr/local/lib/libboost_unit_test_framework-mt.a",
-					"/usr/local/lib/libboost_date_time-mt.a",
-					"/usr/local/lib/libboost_regex-mt.a",
-				);
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = pangram;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		A6E6E491FF0343009A959D12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = test_pangram;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Debug;
-		};
-		AD8C4A1C3E254F5AB19D06CA /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build/build;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = MinSizeRel;
 		};
-		AFF865E15EB043F19B11A0AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		C0925A6FC16E430F863795B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = Release;
-		};
-		CEA02F7C409D40FD9321ED72 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build/build;
-			};
-			name = Debug;
-		};
-		E037CA457787471CBBA9C918 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build/build;
-			};
-			name = RelWithDebInfo;
-		};
-		EE27F28B74914039A2446706 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
-			};
-			name = MinSizeRel;
-		};
-		F459A8D66E1E4250ABDB1CB4 /* Release */ = {
+		9644197CC2554F1BB76477C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -790,100 +604,233 @@
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LIBRARY_SEARCH_PATHS = "";
-				OTHER_CPLUSPLUSFLAGS = (
-					"-DNDEBUG",
-					"-Wall",
-					"-Wextra",
-					"-Wpedantic",
-					"-Werror",
-					"'-std=c++1z'",
-				);
-				OTHER_LDFLAGS = (
-					"-L/usr/local/opt/ncurses/lib",
-					"-Wl,-search_paths_first",
-					"-Wl,-headerpad_max_install_names",
-					"/usr/local/lib/libboost_unit_test_framework-mt.a",
-					"/usr/local/lib/libboost_date_time-mt.a",
-					"/usr/local/lib/libboost_regex-mt.a",
-				);
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = pangram;
 				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/viraltaco/code/Exercism/cpp/pangram/build;
-				SYSTEM_HEADER_SEARCH_PATHS = /usr/local/include;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = (
-					"-Wmost",
-					"-Wno-four-char-constants",
-					"-Wno-unknown-pragmas",
-					"$(inherited)",
-				);
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
 			name = Release;
+		};
+		9894942326F44D1C8CCFADF7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_pangram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9A685DF873B443479D76D0F7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		B60E4329D94644FA9842ADF8 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BBA7966EB7D34C0E9609E088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C76F94A1DC614B1893525D0D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		D3AAA702333E448A915BE529 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F747F1EADB074AF988552A46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "   -Wall -Wextra -Wpedantic -Werror '-std=c++1z'  ";
+				OTHER_LDFLAGS = "-L/usr/local/opt/ncurses/lib -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pangram;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		FCD52C9979924A469D7432BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C4AABAA6F32420391C4E120 /* Build configuration list for PBXProject "pangram" */ = {
+		0B9B339738CA4F6B982281C9 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEA02F7C409D40FD9321ED72 /* Debug */,
-				8CF50D3311254A9ABFA70EDD /* Release */,
-				AD8C4A1C3E254F5AB19D06CA /* MinSizeRel */,
-				E037CA457787471CBBA9C918 /* RelWithDebInfo */,
+				598D18AAC943470EB286A466 /* Debug */,
+				179CDF9F75E3465185F537DB /* Release */,
+				D3AAA702333E448A915BE529 /* MinSizeRel */,
+				B60E4329D94644FA9842ADF8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		605916FE083047FCB4CC8B0D /* Build configuration list for PBXNativeTarget "pangram" */ = {
+		36D0122694824ED488F00A99 /* Build configuration list for PBXAggregateTarget "test_pangram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A2E5B7B6E059404F88B4FD0E /* Debug */,
-				F459A8D66E1E4250ABDB1CB4 /* Release */,
-				2A01208B9316428BAFB04ED7 /* MinSizeRel */,
-				2712EB4BDFD5422A950708DF /* RelWithDebInfo */,
+				1F0E4B8FAC8F41CB81018423 /* Debug */,
+				0223E482EEA0425F97FC548F /* Release */,
+				36EA608032754607BF719F68 /* MinSizeRel */,
+				9894942326F44D1C8CCFADF7 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		B714E53B36BC4926A7ED061A /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		83847F04F2184F3FAA448C50 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				962C863A3A7C40B59FB0CF14 /* Debug */,
-				C0925A6FC16E430F863795B4 /* Release */,
-				28D702CD67D842B193EAE54B /* MinSizeRel */,
-				99A26F9A138048A6A76759E8 /* RelWithDebInfo */,
+				FCD52C9979924A469D7432BB /* Debug */,
+				BBA7966EB7D34C0E9609E088 /* Release */,
+				711053E3C93B4D128B030C8B /* MinSizeRel */,
+				9A685DF873B443479D76D0F7 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		E24D8C6012934734A599AC32 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		AF09629DC10A4A1E95197AA9 /* Build configuration list for PBXNativeTarget "pangram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D7B3AE6B29B4C758FC2BBF4 /* Debug */,
-				AFF865E15EB043F19B11A0AB /* Release */,
-				EE27F28B74914039A2446706 /* MinSizeRel */,
-				9F3D3986EA5B47F99EE6261F /* RelWithDebInfo */,
+				F747F1EADB074AF988552A46 /* Debug */,
+				9644197CC2554F1BB76477C9 /* Release */,
+				487961A54EF6497981956549 /* MinSizeRel */,
+				10A64824D32F465BAB60C304 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F7310857E0684B5881FEA9F7 /* Build configuration list for PBXAggregateTarget "test_pangram" */ = {
+		B70E869D800A4D3CA6773CC0 /* Build configuration list for PBXProject "pangram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6E6E491FF0343009A959D12 /* Debug */,
-				1F3F2BA7DFB74715B7611851 /* Release */,
-				500C1761C6164852B2DDF7F6 /* MinSizeRel */,
-				4FA96608DE2E41DD88A9845E /* RelWithDebInfo */,
+				45B05EF10D844DB2A96831D8 /* Debug */,
+				212D2638A33E4660B05BB197 /* Release */,
+				4D295F9A53A54BB3A0F156C2 /* MinSizeRel */,
+				C76F94A1DC614B1893525D0D /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC5F759661264C5AACFBDF9E /* Project object */;
+	rootObject = EEFB0A1C0C9945D596E18929 /* Project object */;
 }

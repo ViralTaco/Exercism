@@ -6,7 +6,7 @@
 
 #ifndef VT_PRIME_FACTORS_H
 #define VT_PRIME_FACTORS_H
-#define EXERCISM_RUN_ALL_TESTS
+#define EXERCISM_RUN_ALL_TESTS 1
 
 #include <vector>
 

@@ -2,13 +2,12 @@ class DNA {
   var nucleotides = ["T": 0, "A": 0, "C": 0, "G": 0]
   
   init?(strand: String) {
-    for c in strand {
-      let key = c.uppercased() // make `c` an uppercase String
-      
+    for c in strand.uppercased() {
+      let key = String(c)
+
       guard nucleotides[key] != nil else {
         return nil
       }
-      
       nucleotides[key]! += 1
     }
   }

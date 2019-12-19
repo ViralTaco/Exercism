@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/viraltaco/code/Exercism/cpp/prime-factors/prime_factors_test.cpp \
-  /Users/viraltaco/code/Exercism/cpp/prime-factors/prime_factors.h
+  /Users/viraltaco/Desktop/projects/code/Exercism/cpp/prime-factors/prime_factors_test.cpp \
+  /Users/viraltaco/Desktop/projects/code/Exercism/cpp/prime-factors/prime_factors.h

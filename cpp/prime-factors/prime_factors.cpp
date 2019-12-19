@@ -5,19 +5,18 @@
  */
 
 #include "prime_factors.h"
-
 #include <cmath>
 
-bool prime_factors::is_prime(int x) noexcept
-{
-  for (int d{2}; d < static_cast<int>(sqrt(x)); ++d)
-    if (x % d == 0) 
+bool prime_factors::is_prime(int x) noexcept {
+  for (int d = 2; d < (int) sqrt(x); ++d) {
+    if (x % d == 0) {
       return false;
+    }
+  }
   return true;
 }
 
-std::vector<int> prime_factors::of(int num)
-{
+std::vector<int> prime_factors::of(int num) {
   std::vector<int> factors;
   
   // 2 is the only even prime so it gets its own loop. 
@@ -26,12 +25,13 @@ std::vector<int> prime_factors::of(int num)
     factors.push_back(2);
   }
   
-  for (int i{3}; num > 1; i += 2)
-    if (prime_factors::is_prime(i))
+  for (int i = 3; num > 1; i += 2) {
+    if (prime_factors::is_prime(i)) {
       while (num % i == 0) {
         num /= i;
         factors.push_back(i);
       }
-  
+    }
+  }
   return factors;
 }

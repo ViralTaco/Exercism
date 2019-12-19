@@ -2,10 +2,10 @@
 # Custom rules for test_pangram
 .SUFFIXES: 
 all: \
-	/Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeFiles/test_pangram
+	/Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/CMakeFiles/test_pangram
 
 
-/Users/viraltaco/code/Exercism/cpp/pangram/build/CMakeFiles/test_pangram: \
-/Users/viraltaco/code/Exercism/cpp/pangram/build/Debug/pangram
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/CMakeFiles/test_pangram: \
+/Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/Debug/pangram
 	echo ""
-	/Users/viraltaco/code/Exercism/cpp/pangram/build/Debug/pangram
+	/Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/Debug/pangram

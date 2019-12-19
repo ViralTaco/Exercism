@@ -1,4 +1,4 @@
-# Install script for directory: /Users/viraltaco/code/Exercism/cpp/pangram
+# Install script for directory: /Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/viraltaco/code/Exercism/cpp/pangram/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/viraltaco/Desktop/projects/code/Exercism/cpp/pangram/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
